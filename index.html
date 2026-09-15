@@ -3178,9 +3178,7 @@
       <div class="car" id="car">
         <div class="car-track" id="carTrack">
           <div class="slide on">
-            <div class="slide-bg"><img
-                src="https://images.unsplash.com/photo-1606312619070-d48b4c652a52?auto=format&amp;fit=crop&amp;w=1800&amp;q=80"
-                alt="Shree Ram Dry Fruits selection" /></div>
+            <div class="slide-bg"><img src="./mix_dry_fruits.jpg" alt="Shree Ram Dry Fruits selection" /></div>
           </div>
         </div>
         <div class="car-dots" id="carDots"></div>
@@ -3616,10 +3614,10 @@
       IMAGES — swap every URL below for your own Shreeji Essentials shots.
        A fallback keeps anything from rendering broken.
        ═══════════════════════════════════════════════════════ */
-    const U = (id, w = 1000) => `https://images.unsplash.com/photo-${id}?auto=format&fit=crop&w=${w}&q=80`;
-    const PX = (s, w = 900, h = 900) => `https://picsum.photos/seed/${s}/${w}/${h}`;
+    const U = () => './mix_dry_fruits.jpg';
+    const PX = (s, w = 900, h = 900) => './mix_dry_fruits.jpg';
     const img = (src, alt, cls = "", seed = "shreeji") =>
-      `<img src="${src}" alt="${alt}" class="${cls}" loading="lazy" onerror="this.onerror=null;this.src='${PX(seed)}'">`;
+      `<img src="${src}" alt="${alt}" class="${cls}" loading="lazy" onerror="this.onerror=null;this.src='./mix_dry_fruits.jpg'">`;
 
     /* ═══════ DATA ═══════ */
     const TOP_TICK = ["Thank you for contacting Shree Ram Dry Fruits", "All product 1 kg price", "Freshly packed dry fruits", "Send name, full address with pincode", "Premium quality, hygienic packing"];
@@ -3633,19 +3631,79 @@
         tag: "Premium · Fresh · Hygienic", h: "Premium dry fruits,", i: "packed with care",
         p: "Choose from our complete 1 kg range of badam, kaju, anjeer, pista, kismis and more.",
         a: "View products", b: "How to order", href: "#shop", href2: "#contact",
-        img: "images/mix_dry_fruits.jpg", seed: "ban-1"
+        img: "./mix_dry_fruits.jpg", seed: "ban-1"
       },
       {
         tag: "All products · 1 kg price", h: "Fresh taste,", i: "honest quality",
         p: "From Mamra badam to premium kaju and anjeer, every product is selected and packed fresh.",
         a: "Shop dry fruits", b: "Why choose us", href: "#shop", href2: "#why",
-        img: "images/mamra_badam.jpg", seed: "ban-2"
+        img: "./mamra_badam.jpg", seed: "ban-2"
       },
       {
         tag: "Simple ordering", h: "Send your name,", i: "address and pincode",
         p: "For order dry fruits send me your name, full address with pincode. We will pack your order with care.",
         a: "Choose your pack", b: "Contact us", href: "#shop", href2: "#contact",
-        img: "images/kaju_w240.jpg", seed: "ban-3"
+        img: "./kaju_w240.jpg", seed: "ban-3"
+      },
+      {
+        tag: "Premium · Fresh · Hygienic", h: "Crunchy pista,", i: "packed with care",
+        p: "Premium salted pistachios selected for a rich crunch and fresh everyday snacking.",
+        a: "View products", b: "How to order", href: "#shop", href2: "#contact",
+        img: "./salted_pista.jpg", seed: "ban-4"
+      },
+      {
+        tag: "Premium · Fresh · Hygienic", h: "Fresh akhrot,", i: "rich in flavour",
+        p: "Carefully selected walnut kernels with a naturally rich taste and satisfying texture.",
+        a: "View products", b: "Why choose us", href: "#shop", href2: "#why",
+        img: "./akhrot_walnuts.jpg", seed: "ban-5"
+      },
+      {
+        tag: "Freshly packed · 1 kg range", h: "Naturally sweet,", i: "black kismis",
+        p: "Soft, naturally sweet black raisins packed fresh for snacking, desserts and everyday use.",
+        a: "Shop dry fruits", b: "Contact us", href: "#shop", href2: "#contact",
+        img: "./black_kismis.jpg", seed: "ban-6"
+      },
+      {
+        tag: "Freshly packed · 1 kg range", h: "Golden sweetness,", i: "every bite",
+        p: "Bright golden raisins with a soft fruity sweetness, packed carefully for freshness.",
+        a: "Shop dry fruits", b: "How to order", href: "#shop", href2: "#contact",
+        img: "./golden_kismis.jpg", seed: "ban-7"
+      },
+      {
+        tag: "Premium · Naturally sweet", h: "Turkish anjeer,", i: "selected with care",
+        p: "Soft and naturally sweet Turkish figs, carefully selected and packed for a premium experience.",
+        a: "View products", b: "Why choose us", href: "#shop", href2: "#why",
+        img: "./turkish_anjeer.jpg", seed: "ban-8"
+      },
+      {
+        tag: "Premium · Naturally sweet", h: "Soft apricots,", i: "fruity goodness",
+        p: "Naturally tangy apricots with a lovely fruity finish, packed fresh for you.",
+        a: "Shop dry fruits", b: "Contact us", href: "#shop", href2: "#contact",
+        img: "./apricot_product.jpg", seed: "ban-9"
+      },
+      {
+        tag: "Light · Crunchy · Fresh", h: "Makhana,", i: "made for snacking",
+        p: "Light, crunchy fox nuts perfect for roasting, fasting recipes and everyday snacking.",
+        a: "View products", b: "How to order", href: "#shop", href2: "#contact",
+        img: "./makhana_foxnut.jpg", seed: "ban-10"
+      },
+      {
+        tag: "Premium · Aromatic", h: "Pure kesar,", i: "rich aroma",
+        p: "Aromatic saffron strands for milk, sweets, kheer and special festive recipes.",
+        a: "View products", b: "Why choose us", href: "#shop", href2: "#why",
+        img: "./kesar_saffron.jpg", seed: "ban-11"
+      },
+      {
+        tag: "Premium · Aromatic", h: "Green ilayachi,", i: "rich fragrance",
+        p: "Fragrant green cardamom for tea, desserts and festive Indian cooking.",
+        a: "View products", b: "Contact us", href: "#shop", href2: "#contact",
+        img: "./ilayachi_cardamom.jpg", seed: "ban-12"
+      },
+      {
+        tag: "Traditional · Naturally sweet", h: "Dry dates,", i: "everyday goodness",
+        p: "Traditional dry dates for festive recipes, daily snacking and natural sweetness.",
+        a: "Shop dry fruits", b: "How to order", href: "#shop", href2: "#contact",
+        img: "./dry_dates.jpg", seed: "ban-13"
       }
     ];
 
@@ -3826,19 +3884,19 @@
     ];
 
     const dryFruitImages = {
-      almonds: "images/mamra_badam.jpg",
-      cashews: "images/kaju_w240.jpg",
-      pistachios: "images/salted_pista.jpg",
-      walnuts: "images/akhrot_walnuts.jpg",
-      raisins: "images/black_kismis.jpg",
-      golden_raisins: "images/golden_kismis.jpg",
-      figs: "images/turkish_anjeer.jpg",
-      apricots: "images/apricot_product.jpg",
-      makhana: "images/makhana_foxnut.jpg",
-      saffron: "images/kesar_saffron.jpg",
-      cardamom: "images/ilayachi_cardamom.jpg",
-      dates: "images/dry_dates.jpg",
-      mix: "images/mix_dry_fruits.jpg"
+      almonds: "./mamra_badam.jpg",
+      cashews: "./kaju_w240.jpg",
+      pistachios: "./salted_pista.jpg",
+      walnuts: "./akhrot_walnuts.jpg",
+      raisins: "./black_kismis.jpg",
+      golden_raisins: "./golden_kismis.jpg",
+      figs: "./turkish_anjeer.jpg",
+      apricots: "./apricot_product.jpg",
+      makhana: "./makhana_foxnut.jpg",
+      saffron: "./kesar_saffron.jpg",
+      cardamom: "./ilayachi_cardamom.jpg",
+      dates: "./dry_dates.jpg",
+      mix: "./mix_dry_fruits.jpg"
     };
     const dryFruitProduct = (id, cat, name, price, tag, imageKey, description) => ({
       id, cat, name, tag, tagc: tag === "Popular" ? "best" : "new", price, mrp: price,
@@ -3873,31 +3931,31 @@
     const REELS = [
       {
         cap: "Premium Mamra Badam — freshly packed 1 kg", tag: "Almonds", views: "48.2K",
-        thumb: "images/mamra_badam.jpg", url: "https://www.instagram.com/Shreeji.essentials"
+        thumb: "./mamra_badam.jpg", url: "https://www.instagram.com/Shreeji.essentials"
       },
       {
         cap: "Kaju W240 — large creamy cashews", tag: "Cashews", views: "126K",
-        thumb: "images/kaju_w240.jpg", url: "https://www.instagram.com/Shreeji.essentials"
+        thumb: "./kaju_w240.jpg", url: "https://www.instagram.com/Shreeji.essentials"
       },
       {
         cap: "Salted Pista — crunchy and fresh", tag: "Pistachios", views: "33.7K",
-        thumb: "images/salted_pista.jpg", url: "https://www.instagram.com/Shreeji.essentials"
+        thumb: "./salted_pista.jpg", url: "https://www.instagram.com/Shreeji.essentials"
       },
       {
         cap: "Turkish Anjeer — naturally sweet figs", tag: "Figs", views: "91.4K",
-        thumb: "images/turkish_anjeer.jpg", url: "https://www.instagram.com/Shreeji.essentials"
+        thumb: "./turkish_anjeer.jpg", url: "https://www.instagram.com/Shreeji.essentials"
       },
       {
         cap: "Mix Dry Fruits — best for gifting", tag: "Mix", views: "58.9K",
-        thumb: "images/mix_dry_fruits.jpg", url: "https://www.instagram.com/Shreeji.essentials"
+        thumb: "./mix_dry_fruits.jpg", url: "https://www.instagram.com/Shreeji.essentials"
       },
       {
         cap: "Akhrot — fresh walnut kernels", tag: "Walnuts", views: "22.3K",
-        thumb: "images/akhrot_walnuts.jpg", url: "https://www.instagram.com/Shreeji.essentials"
+        thumb: "./akhrot_walnuts.jpg", url: "https://www.instagram.com/Shreeji.essentials"
       },
       {
         cap: "Makhana — light crunchy fox nuts", tag: "Makhana", views: "77.1K",
-        thumb: "images/makhana_foxnut.jpg", url: "https://www.instagram.com/Shreeji.essentials"
+        thumb: "./makhana_foxnut.jpg", url: "https://www.instagram.com/Shreeji.essentials"
       }
     ];
 
@@ -4034,7 +4092,7 @@
       });
       renderProducts(filter.dataset.category);
     });
-    journeyArt.insertAdjacentHTML("afterbegin", img("images/mix_dry_fruits.jpg", "Shree Ram Dry Fruits - premium quality assorted dry fruits", "", "shreeji-promise"));
+    journeyArt.insertAdjacentHTML("afterbegin", img("./mix_dry_fruits.jpg", "Shree Ram Dry Fruits - premium quality assorted dry fruits", "", "shreeji-promise"));
 
     revs.innerHTML = REVIEWS.map(r => `
   <figure class="rev"><div class="stars">${STAR.repeat(5)}</div><p>${r.t}</p>

@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <meta name="theme-color" content="#FBF4EA" />
-  <title>ASHRN Group | Pure, Affordable & High-Quality Everyday Essentials</title>
+  <title>Shree Ram Dry Fruits</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -3112,272 +3112,37 @@
         transform: none !important
       }
     }
-  
-    /* ══════════════════════════════════════════
-       ASHRN GROUP CUSTOM ENHANCEMENTS
-       ══════════════════════════════════════════ */
-    .brand-logo-img {
-      width: 44px;
-      height: 44px;
-      border-radius: 50%;
-      object-fit: cover;
-      border: 2px solid var(--brass);
-      box-shadow: 0 2px 8px rgba(0,0,0,0.18);
-      flex: none;
-      transition: transform .25s var(--ez);
-    }
-    .brand:hover .brand-logo-img {
-      transform: scale(1.06) rotate(4deg);
-    }
-    .brand-text {
-      display: flex;
-      flex-direction: column;
-    }
-    .nav-contact-pill {
-      display: none;
-      align-items: center;
-      gap: 10px;
-      background: var(--surface);
-      border: 1px solid var(--line);
-      padding: 6px 14px;
-      border-radius: 30px;
-      font-size: 12px;
-      font-weight: 600;
-      box-shadow: var(--sh1);
-    }
-    @media (min-width: 900px) {
-      .nav-contact-pill {
-        display: flex;
-      }
-    }
-    .status-dot {
-      display: inline-block;
-      width: 8px;
-      height: 8px;
-      border-radius: 50%;
-      background: #2E7D32;
-      box-shadow: 0 0 0 2px rgba(46, 125, 50, .25);
-      animation: pulseDot 2s infinite;
-    }
-    @keyframes pulseDot {
-      0%, 100% { opacity: 1; transform: scale(1); }
-      50% { opacity: .6; transform: scale(1.2); }
-    }
-    .nav-status-badge {
-      color: #2E7D32;
-      display: inline-flex;
-      align-items: center;
-      gap: 5px;
-      font-weight: 700;
-      font-size: 11px;
-    }
-    .nav-phone-link {
-      color: var(--ink);
-      display: inline-flex;
-      align-items: center;
-      gap: 4px;
-      font-weight: 700;
-      transition: color .2s;
-    }
-    .nav-phone-link:hover {
-      color: #25D366;
-    }
-
-    /* ══════ VISION & MISSION SECTION ══════ */
-    .vm-section {
-      background: linear-gradient(180deg, var(--surface) 0%, var(--cream-2) 100%);
-      border-block: 1px solid var(--line-2);
-      padding: 68px 0;
-    }
-    .vm-grid {
-      display: grid;
-      gap: 28px;
-      margin-top: 36px;
-    }
-    @media (min-width: 900px) {
-      .vm-grid {
-        grid-template-columns: 1fr 1.25fr;
-        gap: 36px;
-      }
-    }
-    .vision-card {
-      background: #181E19;
-      color: #F8F5EE;
-      border-radius: var(--r4);
-      padding: 38px 32px;
-      position: relative;
-      overflow: hidden;
-      box-shadow: var(--sh3);
-      border: 1px solid rgba(212, 175, 55, .3);
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-    }
-    .vision-card::before {
-      content: "";
-      position: absolute;
-      top: -60px;
-      right: -60px;
-      width: 220px;
-      height: 220px;
-      border-radius: 50%;
-      background: radial-gradient(circle, rgba(212, 175, 55, .25) 0%, transparent 70%);
-      pointer-events: none;
-    }
-    .vm-badge {
-      display: inline-block;
-      align-self: flex-start;
-      font-size: 11px;
-      font-weight: 700;
-      letter-spacing: .16em;
-      padding: 5px 12px;
-      border-radius: 30px;
-      background: rgba(212, 175, 55, .2);
-      color: #E8C86A;
-      margin-bottom: 18px;
-    }
-    .vm-icon svg {
-      width: 42px;
-      height: 42px;
-      stroke: #E8C86A;
-      margin-bottom: 14px;
-    }
-    .vision-card h3 {
-      font-family: "Familjen Grotesk", sans-serif;
-      font-size: 26px;
-      line-height: 1.25;
-      margin: 0 0 14px;
-      color: #FFFFFF;
-    }
-    .vision-card h3 em {
-      color: #E8C86A;
-      font-style: normal;
-    }
-    .vision-text {
-      font-size: 16px;
-      line-height: 1.6;
-      color: rgba(248, 245, 238, .88);
-      margin: 0 0 24px;
-      font-style: italic;
-      border-left: 3px solid #C08D3E;
-      padding-left: 14px;
-    }
-    .vm-tags {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px;
-    }
-    .vm-tags span {
-      background: rgba(255,255,255,.08);
-      border: 1px solid rgba(255,255,255,.14);
-      padding: 4px 12px;
-      border-radius: 20px;
-      font-size: 12px;
-      color: #F8F5EE;
-    }
-    .mission-card {
-      background: var(--surface);
-      border-radius: var(--r4);
-      padding: 36px 32px;
-      box-shadow: var(--sh2);
-      border: 1px solid var(--line);
-    }
-    .mission-card h3 {
-      font-family: "Familjen Grotesk", sans-serif;
-      font-size: 24px;
-      margin: 0 0 20px;
-      color: var(--ink);
-    }
-    .mission-list {
-      display: flex;
-      flex-direction: column;
-      gap: 16px;
-    }
-    .m-item {
-      display: flex;
-      align-items: flex-start;
-      gap: 14px;
-      padding-bottom: 14px;
-      border-bottom: 1px dashed var(--line);
-    }
-    .m-item:last-child {
-      border-bottom: none;
-      padding-bottom: 0;
-    }
-    .m-num {
-      width: 28px;
-      height: 28px;
-      border-radius: 50%;
-      background: var(--forest-sf);
-      color: var(--forest);
-      font-weight: 700;
-      font-size: 13px;
-      display: grid;
-      place-items: center;
-      flex: none;
-    }
-    .m-item b {
-      display: block;
-      font-size: 14.5px;
-      color: var(--ink);
-      margin-bottom: 2px;
-    }
-    .m-item p {
-      margin: 0;
-      font-size: 13px;
-      color: var(--ink-2);
-      line-height: 1.45;
-    }
-    .wa-order-btn {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      background: #25D366;
-      color: #FFFFFF !important;
-      padding: 10px 18px;
-      border-radius: 12px;
-      font-weight: 700;
-      font-size: 13px;
-      box-shadow: 0 4px 12px rgba(37, 211, 102, .3);
-      transition: transform .2s var(--ez), background .2s;
-    }
-    .wa-order-btn:hover {
-      background: #1EBE5D;
-      transform: translateY(-2px);
-    }
-
-  
   </style>
 </head>
 
 <body>
+
+  <!-- ══ TOP TICKER ══ -->
   <!-- ══ NAV ══ -->
   <header class="nav" id="nav">
     <div class="wrap">
       <a class="brand" href="#" data-home>
-        <img src="./ashrn_logo.jpg" alt="ASHRN Group" class="brand-logo-img" />
-        <div class="brand-text">
-          <b>ASHRN <em>GROUP™</em></b>
-          <small>PURE SPICES · KITCHEN COMBOS · ESSENTIALS</small>
-        </div>
+        <svg viewBox="0 0 40 40" aria-hidden="true">
+          <circle cx="20" cy="20" r="18.5" fill="none" stroke="#B8874F" stroke-width="1.4" />
+          <path d="M20 11c2.8 2.4 4.3 5 4.3 7.6 0 2.6-1.6 4.6-4.3 6-2.7-1.4-4.3-3.4-4.3-6C15.7 16 17.2 13.4 20 11Z"
+            fill="#A8843A" />
+          <path d="M12.4 18.6c3 .6 5.1 1.9 6.2 3.9 1.1 2 .9 4.2-.5 6.4-2.6-.5-4.4-1.6-5.5-3.4-1.1-1.8-1.2-4.1-.2-6.9Z"
+            fill="#876A2C" />
+          <path d="M27.6 18.6c1 2.8.9 5.1-.2 6.9-1.1 1.8-2.9 2.9-5.5 3.4-1.4-2.2-1.6-4.4-.5-6.4 1.1-2 3.2-3.3 6.2-3.9Z"
+            fill="#876A2C" />
+          <circle cx="20" cy="23.6" r="2.6" fill="#D6B37C" />
+        </svg>
+        <b>SHREE RAM <em>DRY FRUITS</em><small>PREMIUM · FRESH · HYGIENIC</small></b>
       </a>
       <nav class="nav-links">
         <a href="#why" data-jump>Why choose us</a>
-        <a href="#vision-mission" data-jump>Vision &amp; Mission</a>
-        <a href="#shop" data-jump>Kitchen Spices</a>
+        <a href="#shop" data-jump>Shop</a>
         <a href="#journey" data-jump>Our promise</a>
         <a href="#socials" data-jump>Socials</a>
-        <a href="#contact" data-jump>Contact</a>
+        <a href="#feed" data-jump>Instagram</a>
       </nav>
       <div class="nav-actions">
-        <div class="nav-contact-pill">
-          <span class="nav-status-badge"><span class="status-dot"></span> Open until 6:00 PM</span>
-          <a href="https://wa.me/919565564785?text=Hello%20ASHRN%20Group,%20I%20want%20to%20order%20pure%20kitchen%20spices" target="_blank" rel="noopener" class="nav-phone-link" title="Order on WhatsApp">
-            <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M12.04 2C6.6 2 2.2 6.4 2.2 11.83c0 1.94.55 3.75 1.5 5.3L2 22l5-1.63a9.83 9.83 0 0 0 5.04 1.38c5.43 0 9.83-4.4 9.83-9.83S17.47 2 12.04 2Zm0 17.78a8 8 0 0 1-4.24-1.22l-.3-.18-3.13 1.02 1.04-3.05-.2-.31a7.96 7.96 0 1 1 6.83 3.74Z"/></svg>
-            +91 95655 64785
-          </a>
-        </div>
-        <a class="btn btn-green nav-cta" href="#shop" data-jump>Shop Spices</a>
+        <a class="btn btn-green nav-cta" href="#shop" data-jump>Shop now</a>
         <button class="bag" id="bagBtn" aria-label="Your bag">
           <svg viewBox="0 0 24 24">
             <path d="M5.5 8h13l-1.2 11.2a2 2 0 0 1-2 1.8H8.7a2 2 0 0 1-2-1.8L5.5 8Z" />
@@ -3397,24 +3162,12 @@
         <path d="M6 6l12 12M18 6 6 18" />
       </svg>
     </button>
-    <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;">
-      <img src="./ashrn_logo.jpg" alt="ASHRN Group" style="width:44px;height:44px;border-radius:50%;border:2px solid var(--brass);" />
-      <div>
-        <b style="font-family:'Familjen Grotesk',sans-serif;font-size:19px;display:block;">ASHRN GROUP™</b>
-        <span style="font-size:11.5px;color:#2E7D32;font-weight:700;">● Open until 6:00 PM</span>
-      </div>
-    </div>
     <a href="#why" data-jump>Why choose us</a>
-    <a href="#vision-mission" data-jump>Vision &amp; Mission (उद्देश्य)</a>
-    <a href="#shop" data-jump>Pure Kitchen Spices</a>
+    <a href="#shop" data-jump>Shop</a>
     <a href="#journey" data-jump>Our promise</a>
     <a href="#socials" data-jump>Socials</a>
-    <a href="#feed" data-jump>Connect with us</a>
-    <a href="#contact" data-jump>Contact us</a>
-    <a class="btn btn-green" href="https://wa.me/919565564785?text=Hello%20ASHRN%20Group,%20I%20want%20to%20order%20pure%20spices" target="_blank" rel="noopener" style="margin-top:14px;display:flex;align-items:center;justify-content:center;gap:6px;">
-      <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M12.04 2C6.6 2 2.2 6.4 2.2 11.83c0 1.94.55 3.75 1.5 5.3L2 22l5-1.63a9.83 9.83 0 0 0 5.04 1.38c5.43 0 9.83-4.4 9.83-9.83S17.47 2 12.04 2Zm0 17.78a8 8 0 0 1-4.24-1.22l-.3-.18-3.13 1.02 1.04-3.05-.2-.31a7.96 7.96 0 1 1 6.83 3.74Z"/></svg>
-      Order on WhatsApp (+91 95655 64785)
-    </a>
+    <a href="#feed" data-jump>Instagram</a>
+    <a class="btn btn-green" href="#shop" data-jump>Shop now</a>
   </div>
 
   <!-- ═══════════ HOME ═══════════ -->
@@ -3425,7 +3178,7 @@
       <div class="car" id="car">
         <div class="car-track" id="carTrack">
           <div class="slide on">
-            <div class="slide-bg"><img src="./ashrn_turmeric_pouch.png" alt="ASHRN Group Pure Turmeric Powder Pouch" /></div>
+            <div class="slide-bg"><img src="./mix_dry_fruits.jpg" alt="Shree Ram Dry Fruits selection" /></div>
           </div>
         </div>
         <div class="car-dots" id="carDots"></div>
@@ -3448,88 +3201,12 @@
     <section class="sec why" id="why">
       <div class="wrap">
         <div class="sec-head rv">
-          <span class="eyebrow" style="color:var(--brass);letter-spacing:.2em;text-transform:uppercase;font-weight:700;font-size:12px">Pure &amp; Authentic Promise</span>
-          <h2 class="h-sec">WHY CHOOSE <span class="hl-it">ASHRN GROUP?</span></h2>
+          <h2 class="h-sec">WHY CHOOSE <span class="hl-it">SHREE RAM?</span></h2>
           <div class="rule"></div>
-          <p>100% pure kitchen spices, delicious combos, home-made decor and daily essentials delivered with trust across India.</p>
+          <p>Premium dry fruits, hygienically packed with care and delivered fresh to your home.</p>
         </div>
         <div class="why-rail" id="whyRail"></div>
         <div class="why-dots" id="whyDots"></div>
-      </div>
-    </section>
-
-    <!-- ═══════ VISION & MISSION SECTION ═══════ -->
-    <section class="sec vm-section" id="vision-mission">
-      <div class="wrap">
-        <div class="sec-head rv">
-          <span class="eyebrow" style="color:var(--brass);letter-spacing:.2em;text-transform:uppercase;font-weight:700;font-size:12px">Our Identity &amp; Purpose</span>
-          <h2 class="h-sec">VISION &amp; <span class="hl-it">Mission (उद्देश्य)</span></h2>
-          <div class="rule"></div>
-          <p>Building a trusted, pure, and affordable household brand for every Indian family.</p>
-        </div>
-
-        <div class="vm-grid rv">
-          <!-- Vision Card -->
-          <div class="vision-card">
-            <div>
-              <div class="vm-badge">OUR VISION · दृष्टि</div>
-              <div class="vm-icon">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
-              </div>
-              <h3>To build <em>ASHRN Group</em> as a trusted household brand</h3>
-              <p class="vision-text">"To build ASHRN Group as a trusted household brand that delivers pure, affordable, and high-quality everyday essential products across India."</p>
-            </div>
-            <div class="vm-tags">
-              <span>Pure &amp; Authentic</span>
-              <span>100% Quality Spices</span>
-              <span>Affordable for All</span>
-              <span>Across India Delivery</span>
-            </div>
-          </div>
-
-          <!-- Mission Card with 5 pillars -->
-          <div class="mission-card">
-            <div class="vm-badge" style="background:var(--brass-sf);color:var(--forest-2)">OUR MISSION · उद्देश्य</div>
-            <h3>5 Pillars of ASHRN Group</h3>
-            <div class="mission-list">
-              <div class="m-item">
-                <span class="m-num">1</span>
-                <div>
-                  <b>100% Quality Spices &amp; Daily Essentials</b>
-                  <p>To provide 100% quality spices, home-made home decor, kitchen combo and daily products.</p>
-                </div>
-              </div>
-              <div class="m-item">
-                <span class="m-num">2</span>
-                <div>
-                  <b>Promote Local Businesses &amp; Suppliers</b>
-                  <p>Promoting local businesses, partnering with farmers, and supporting regional producers.</p>
-                </div>
-              </div>
-              <div class="m-item">
-                <span class="m-num">3</span>
-                <div>
-                  <b>Increase Employment Opportunities</b>
-                  <p>To increase employment opportunities and empower local communities through ethical operations.</p>
-                </div>
-              </div>
-              <div class="m-item">
-                <span class="m-num">4</span>
-                <div>
-                  <b>Safe, Clean &amp; Standard-Compliant</b>
-                  <p>Safe, clean and standard-compliant production with strict hygiene and certified quality standards.</p>
-                </div>
-              </div>
-              <div class="m-item">
-                <span class="m-num">5</span>
-                <div>
-                  <b>Best Products at a Fair Price</b>
-                  <p>To provide the best products to customers at a fair, honest, and affordable price.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
 
@@ -3538,55 +3215,64 @@
       <div class="rb-track" id="runBold"></div>
     </div>
 
-    <!-- PRODUCTS / SHOP -->
+    <!-- PRODUCTS -->
     <section class="sec" id="shop">
       <div class="wrap">
         <div class="sec-head rv">
-          <span class="eyebrow" style="color:var(--brass);letter-spacing:.2em;text-transform:uppercase;font-weight:700;font-size:12px">Pure &amp; Authentic Spices</span>
-          <h2 class="h-sec">KITCHEN SPICES &amp; <span class="hl-it">Combos</span></h2>
+          <h2 class="h-sec">OUR <span class="hl-it">DRY FRUITS</span></h2>
           <div class="rule"></div>
-          <p>Pure Haldi, Teekhi Mirch, Dhaniya, Royal Garam Masala, Kitchen Combos, Desi Ghee &amp; Handcrafted Home Decor.</p>
+          <p>All products are 1 kg packs. Choose your favourite dry fruits and order fresh.</p>
         </div>
-        <div class="shop-filters" id="shopFilters" role="tablist" aria-label="Spice categories">
-          <button class="shop-filter on" type="button" data-category="All" role="tab" aria-selected="true">All Spices &amp; Products</button>
-          <button class="shop-filter" type="button" data-category="Ground Spices" role="tab" aria-selected="false">Ground Spices (पिसे मसाले)</button>
-          <button class="shop-filter" type="button" data-category="Kitchen Combos" role="tab" aria-selected="false">Kitchen Combos (किचन कॉम्बो)</button>
-          <button class="shop-filter" type="button" data-category="Whole Spices" role="tab" aria-selected="false">Whole Spices (खड़े मसाले)</button>
-          <button class="shop-filter" type="button" data-category="Cooking Essentials" role="tab" aria-selected="false">Cooking Essentials (दैनिक रसोई)</button>
-          <button class="shop-filter" type="button" data-category="Home Decor" role="tab" aria-selected="false">Home Decor (होम डेकोर)</button>
+        <div class="shop-filters" id="shopFilters" role="tablist" aria-label="Dry fruit categories">
+          <button class="shop-filter on" type="button" data-category="All" role="tab" aria-selected="true">All
+            products</button>
+          <button class="shop-filter" type="button" data-category="Almonds" role="tab"
+            aria-selected="false">Badam</button>
+          <button class="shop-filter" type="button" data-category="Cashews" role="tab"
+            aria-selected="false">Kaju</button>
+          <button class="shop-filter" type="button" data-category="Figs" role="tab"
+            aria-selected="false">Anjeer</button>
+          <button class="shop-filter" type="button" data-category="Raisins" role="tab"
+            aria-selected="false">Kismis</button>
+          <button class="shop-filter" type="button" data-category="Pistachios" role="tab"
+            aria-selected="false">Pista</button>
         </div>
         <div class="pgrid stagger" id="grid"></div>
       </div>
     </section>
 
-    <!-- JOURNEY / PROMISE -->
+    <!-- JOURNEY -->
     <section class="sec journey" id="journey">
       <div class="wrap">
         <div class="j-grid rv">
           <div class="j-art" id="journeyArt">
-            <div class="j-badge"><b>100% Pure</b><span>Standard Compliant</span></div>
+            <div class="j-badge"><b>4.9/5</b><span>From 80 reviews</span></div>
           </div>
           <div>
-            <span class="eyebrow">Our Pure Promise</span>
-            <h2 class="h-sec">Authentic Indian Flavour, <span class="hl-it">Made with Care</span></h2>
-            <p class="lead">ASHRN Group brings pure, affordable, and high-quality everyday essential products to your home with uncompromised quality.</p>
+            <span class="eyebrow">Pure by promise</span>
+            <h2 class="h-sec">Everyday flavour, <span class="hl-it">made with care</span></h2>
+            <p class="lead">Shree Ram Dry Fruits brings premium, hygienically packed dry fruits to your home with
+              freshness in every order.</p>
             <ul class="j-list">
               <li><svg viewBox="0 0 24 24">
                   <path d="M12 3c3 2.6 4.6 5.4 4.6 8.2S14.9 16.4 12 18c-2.9-1.6-4.6-4-4.6-6.8S9 5.6 12 3Z" />
                 </svg>
-                <div><b>100% Quality Spices &amp; Combos</b><span>Selected directly from certified growers with zero adulteration and no artificial food colors.</span></div>
+                <div><b>Sourced directly from farmers</b><span>We value trusted relationships and carefully selected
+                    ingredients.</span></div>
               </li>
               <li><svg viewBox="0 0 24 24">
                   <path d="M12 2.8 20 6v6c0 4.8-3.3 8.2-8 9.3C7.3 20.2 4 16.8 4 12V6z" />
                   <path d="m9 12 2 2 4-4" />
                 </svg>
-                <div><b>Safe, Clean &amp; Standard-Compliant Production</b><span>Every pack is processed in sanitary conditions, lab tested, and sealed for lasting aroma.</span></div>
+                <div><b>Hygienically packed</b><span>Every pack is prepared with cleanliness and freshness in
+                    mind.</span></div>
               </li>
               <li><svg viewBox="0 0 24 24">
                   <path d="M3 12a9 9 0 1 0 18 0 9 9 0 0 0-18 0Z" />
                   <path d="M3 12h18M12 3c2.4 2.6 3.6 5.6 3.6 9s-1.2 6.4-3.6 9c-2.4-2.6-3.6-5.6-3.6-9S9.6 5.6 12 3Z" />
                 </svg>
-                <div><b>Fair Price &amp; Supporting Local Suppliers</b><span>Promoting local businesses and creating employment while delivering honest prices to families.</span></div>
+                <div><b>Authentic taste, maximum freshness</b><span>Rich aroma and dependable quality for everyday
+                    cooking.</span></div>
               </li>
             </ul>
           </div>
@@ -3598,11 +3284,12 @@
     <section class="sec" id="socials">
       <div class="wrap">
         <div class="sec-head rv">
-          <h2 class="h-sec">INSIDE <span class="hl-it">ASHRN Group</span></h2>
+          <h2 class="h-sec">SCROLL THE <span class="hl-it">Socials</span></h2>
           <div class="rule"></div>
         </div>
         <div class="reels-head">
-          <p style="margin:0;font-size:14px;color:var(--ink-2);max-width:48ch">A closer look at our pure kitchen spices, cold-pressed oils, kitchen combos, and hygienic packaging at ASHRN Group.</p>
+          <p style="margin:0;font-size:14px;color:var(--ink-2);max-width:44ch">A closer look at our dry fruits, packing
+            process and the people behind Shree Ram Dry Fruits.</p>
           <button class="admin-btn" id="adminBtn">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round">
               <path d="M12 5v14M5 12h14" />
@@ -3619,15 +3306,15 @@
       <div class="wrap">
         <div class="ig-head rv">
           <div>
-            <h2 class="h-sec">CONNECT <span class="hl-it">With ASHRN Group</span></h2>
+            <h2 class="h-sec">CONNECT <span class="hl-it">With us</span></h2>
             <div class="rule" style="margin-top:14px"></div>
           </div>
-          <a class="ig-follow" href="https://wa.me/919565564785?text=Hello%20ASHRN%20Group" target="_blank" rel="noopener">
+          <a class="ig-follow" href="https://www.instagram.com/Shreeji.essentials" target="_blank" rel="noopener">
             <svg viewBox="0 0 24 24">
               <path
-                d="M12.04 2C6.6 2 2.2 6.4 2.2 11.83c0 1.94.55 3.75 1.5 5.3L2 22l5-1.63a9.83 9.83 0 0 0 5.04 1.38c5.43 0 9.83-4.4 9.83-9.83S17.47 2 12.04 2Zm0 17.78a8 8 0 0 1-4.24-1.22l-.3-.18-3.13 1.02 1.04-3.05-.2-.31a7.96 7.96 0 1 1 6.83 3.74Z" />
+                d="M7.2 2h9.6A5.2 5.2 0 0 1 22 7.2v9.6A5.2 5.2 0 0 1 16.8 22H7.2A5.2 5.2 0 0 1 2 16.8V7.2A5.2 5.2 0 0 1 7.2 2Zm0 2A3.2 3.2 0 0 0 4 7.2v9.6A3.2 3.2 0 0 0 7.2 20h9.6a3.2 3.2 0 0 0 3.2-3.2V7.2A3.2 3.2 0 0 0 16.8 4H7.2Zm4.8 2.9a5.1 5.1 0 1 1 0 10.2 5.1 5.1 0 0 1 0-10.2Zm0 2a3.1 3.1 0 1 0 0 6.2 3.1 3.1 0 0 0 0-6.2Zm5.4-2.75a1.2 1.2 0 1 1 0 2.4 1.2 1.2 0 0 1 0-2.4Z" />
             </svg>
-            WhatsApp: +91 95655 64785
+            Follow @Shreeji.essentials
           </a>
         </div>
       </div>
@@ -3637,7 +3324,7 @@
     </section>
 
     <!-- REVIEWS -->
-    <section class="sec" id="reviews">
+    <section class="sec">
       <div class="wrap">
         <div class="sec-head rv">
           <h2 class="h-sec">SATISFIED CUSTOMERS <span class="hl-it">speak out</span></h2>
@@ -3647,18 +3334,16 @@
       </div>
     </section>
 
-    <!-- BAND / ORDER PROMPT -->
+    <!-- BAND -->
     <section class="sec" style="padding-top:0">
       <div class="wrap">
         <div class="band rv">
-          <h2>Welcome to ASHRN Group<br><span style="font-size:22px;font-weight:400;color:var(--brass-2);">100% Quality Spices &amp; Kitchen Combos</span></h2>
-          <p>For order send your name, full address with pincode to <b>+91 95655 64785</b>. Safe, clean and standard-compliant production delivered straight to your doorstep.</p>
+          <h2>Thank you for contacting<br>Shree Ram Dry Fruits</h2>
+          <p>For order dry fruits send me your name, full address with pincode. All products are 1 kg packs and freshly
+            packed for you.</p>
           <div class="band-form">
-            <input type="text" id="mail" placeholder="Your Name or Phone Number" aria-label="Name or phone" />
-            <button class="btn btn-brass" id="joinBtn">Order via WhatsApp</button>
-          </div>
-          <div style="margin-top:16px;font-size:13px;color:rgba(255,255,255,0.75);">
-            <span>Call / WhatsApp: <b>+91 95655 64785</b></span> · <span>Open until 6:00 PM</span>
+            <input type="email" id="mail" placeholder="you@email.com" aria-label="Email address" />
+            <button class="btn btn-brass" id="joinBtn">Place your order</button>
           </div>
         </div>
       </div>
@@ -3698,7 +3383,7 @@
         </div>
 
         <div>
-          <div class="pdp-brand">ASHRN Group · <span id="pdpCat"></span></div>
+          <div class="pdp-brand">Shree Ram Dry Fruits · <span id="pdpCat"></span></div>
           <h1 class="pdp-title" id="pdpTitle"></h1>
           <div class="pdp-rate">
             <div class="stars" id="pdpStars"></div><b id="pdpRating"></b><a href="#" id="pdpRevLink"></a>
@@ -3715,7 +3400,8 @@
                 d="M3 9V6.5A1.5 1.5 0 0 1 4.5 5h15A1.5 1.5 0 0 1 21 6.5V9a3 3 0 0 0 0 6v2.5a1.5 1.5 0 0 1-1.5 1.5h-15A1.5 1.5 0 0 1 3 17.5V15a3 3 0 0 0 0-6Z" />
               <path d="M14 9v6" />
             </svg>
-            <div><b>Launch Offer · Code <span id="couponCode">ASHRN10</span></b><span>Get extra 10% off + Free Shipping above ₹499</span></div>
+            <div><b>Fresh 1 kg pack · <span id="couponCode">DRYFRUIT</span></b><span>Send your name, full address and
+                pincode to order</span></div>
             <button id="couponBtn">Copy</button>
           </div>
 
@@ -3735,7 +3421,7 @@
 
           <div class="buy-actions">
             <button class="btn btn-green btn-lg btn-block" id="addBtn">Add to bag</button>
-            <button class="btn btn-brass btn-lg btn-block" id="buyBtn">Order on WhatsApp</button>
+            <button class="btn btn-brass btn-lg btn-block" id="buyBtn">Buy now</button>
           </div>
 
           <div class="deliv">
@@ -3744,26 +3430,26 @@
                 <circle cx="6.5" cy="18" r="1.8" />
                 <circle cx="16.5" cy="18" r="1.8" />
               </svg>
-              <div><b>Delivery by <span id="etaDate"></span></b><span>Dispatched safely within 24 hours across India.</span>
+              <div><b>Delivery by <span id="etaDate"></span></b><span>Dispatched from Ghaziabad within 24 hours.</span>
               </div>
             </div>
             <div class="deliv-row"><svg viewBox="0 0 24 24">
                 <path d="M12 2.8 20 6v6c0 4.8-3.3 8.2-8 9.3C7.3 20.2 4 16.8 4 12V6z" />
                 <path d="m9 12 2 2 4-4" />
               </svg>
-              <div><b>Safe &amp; Standard-Compliant</b><span>100% pure quality spices, zero adulteration.</span></div>
+              <div><b>FSSAI 10435999000389</b><span>Lab tested for moisture, grade and purity every batch.</span></div>
             </div>
             <div class="deliv-row"><svg viewBox="0 0 24 24">
                 <path d="M9 14l-4 4 3 3" />
                 <path d="M5 18h9a5 5 0 0 0 5-5V6" />
               </svg>
-              <div><b>Quality Guarantee</b><span>Pack damaged or seal broken? Replaced immediately, no hassle.</span></div>
+              <div><b>Easy returns</b><span>Pack damaged or seal broken? Replaced free, no questions.</span></div>
             </div>
             <div class="deliv-row"><svg viewBox="0 0 24 24">
                 <rect x="2.5" y="5.5" width="19" height="13" rx="2.5" />
                 <path d="M2.5 10h19" />
               </svg>
-              <div><b>UPI, Cards, Netbanking, COD</b><span>Cash on delivery &amp; online payment available across India.</span></div>
+              <div><b>UPI, cards, netbanking, COD</b><span>Cash on delivery available across India.</span></div>
             </div>
           </div>
 
@@ -3773,7 +3459,7 @@
       </div>
 
       <section class="pdp-sec">
-        <h3>About this spice product</h3>
+        <h3>About this product</h3>
         <div id="pdpDesc"></div>
       </section>
       <section class="pdp-sec">
@@ -3783,7 +3469,7 @@
         </table>
       </section>
       <section class="pdp-sec">
-        <h3>More from ASHRN Group</h3>
+        <h3>More from Shree Ram Dry Fruits</h3>
         <div class="pgrid" id="related" style="margin-top:20px"></div>
       </section>
     </div>
@@ -3812,7 +3498,7 @@
       </div>
       <div class="field">
         <label for="rCap">Caption</label>
-        <input id="rCap" type="text" placeholder="Packing day at ASHRN Group" />
+        <input id="rCap" type="text" placeholder="Packing day at the unit" />
       </div>
       <div class="panel-actions">
         <button class="btn btn-line" id="panelCancel">Cancel</button>
@@ -3839,79 +3525,80 @@
     <div class="wrap">
       <div class="f-grid">
         <div class="f-brand">
-          <div style="display:flex;align-items:center;gap:12px;margin-bottom:14px;">
-            <img src="./ashrn_logo.jpg" alt="ASHRN Group" style="width:52px;height:52px;border-radius:50%;border:2px solid var(--brass);object-fit:cover;" />
-            <div>
-              <b style="font-size:22px;line-height:1;display:block;">ASHRN <em>GROUP™</em></b>
-              <small style="font-size:10px;color:var(--brass);letter-spacing:.15em;font-weight:700;">TRUSTED HOUSEHOLD BRAND</small>
-            </div>
-          </div>
-          <p>Building ASHRN Group as a trusted household brand delivering pure, affordable, and high-quality everyday essential products across India.</p>
-          <div style="margin-top:14px;font-size:12.5px;color:var(--ink-2);line-height:1.7;">
-            <div><b>Category:</b> Kitchen/cooking • Apparel &amp; clothing • Shopping &amp; retail</div>
-            <div><span style="color:#2E7D32;font-weight:700;">● Open until 6:00 PM</span></div>
-          </div>
-          <div class="f-social" style="margin-top:16px;">
-            <a href="https://wa.me/919565564785" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24">
+          <b>SHREE RAM <em>DRY FRUITS</em></b>
+          <p>Premium dry fruits, carefully selected and hygienically packed for freshness, taste and gifting.</p>
+          <div class="f-social">
+            <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24">
+                <path
+                  d="M7.2 2h9.6A5.2 5.2 0 0 1 22 7.2v9.6A5.2 5.2 0 0 1 16.8 22H7.2A5.2 5.2 0 0 1 2 16.8V7.2A5.2 5.2 0 0 1 7.2 2Zm0 2A3.2 3.2 0 0 0 4 7.2v9.6A3.2 3.2 0 0 0 7.2 20h9.6a3.2 3.2 0 0 0 3.2-3.2V7.2A3.2 3.2 0 0 0 16.8 4H7.2Zm4.8 2.9a5.1 5.1 0 1 1 0 10.2 5.1 5.1 0 0 1 0-10.2Zm0 2a3.1 3.1 0 1 0 0 6.2 3.1 3.1 0 0 0 0-6.2Zm5.4-2.75a1.2 1.2 0 1 1 0 2.4 1.2 1.2 0 0 1 0-2.4Z" />
+              </svg></a>
+            <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24">
+                <path
+                  d="M13.6 22v-8.4h2.85l.43-3.3H13.6V8.18c0-.95.27-1.6 1.64-1.6h1.75V3.63c-.3-.04-1.34-.13-2.55-.13-2.52 0-4.25 1.54-4.25 4.37V10.3H7.33v3.3h2.86V22h3.41Z" />
+              </svg></a>
+            <a href="#" aria-label="X"><svg viewBox="0 0 24 24">
+                <path d="M17.6 3h3.3l-7.2 8.24L22.3 21h-6.6l-4.6-6.03L5.7 21H2.4l7.7-8.8L2 3h6.8l4.17 5.5L17.6 3Z" />
+              </svg></a>
+            <a href="#" aria-label="YouTube"><svg viewBox="0 0 24 24">
+                <path
+                  d="M21.6 7.3a2.6 2.6 0 0 0-1.83-1.84C18.16 5 12 5 12 5s-6.16 0-7.77.46A2.6 2.6 0 0 0 2.4 7.3C2 8.93 2 12 2 12s0 3.07.4 4.7a2.6 2.6 0 0 0 1.83 1.84C5.84 19 12 19 12 19s6.16 0 7.77-.46a2.6 2.6 0 0 0 1.83-1.84C22 15.07 22 12 22 12s0-3.07-.4-4.7ZM10.1 15.1V8.9l5.3 3.1-5.3 3.1Z" />
+              </svg></a>
+            <a href="#" aria-label="WhatsApp"><svg viewBox="0 0 24 24">
                 <path
                   d="M12.04 2C6.6 2 2.2 6.4 2.2 11.83c0 1.94.55 3.75 1.5 5.3L2 22l5-1.63a9.83 9.83 0 0 0 5.04 1.38c5.43 0 9.83-4.4 9.83-9.83S17.47 2 12.04 2Zm0 17.78a8 8 0 0 1-4.24-1.22l-.3-.18-3.13 1.02 1.04-3.05-.2-.31a7.96 7.96 0 1 1 6.83 3.74Zm4.4-5.86c-.24-.12-1.42-.7-1.64-.78-.22-.08-.38-.12-.54.12s-.62.78-.76.94c-.14.16-.28.18-.52.06a6.54 6.54 0 0 1-3.27-2.86c-.25-.42.25-.4.7-1.3.08-.16.04-.3-.02-.42-.06-.12-.54-1.3-.74-1.78-.2-.46-.4-.4-.54-.41h-.46c-.16 0-.42.06-.64.3s-.84.82-.84 2 .86 2.32.98 2.48c.12.16 1.7 2.6 4.12 3.64 1.53.66 2.13.72 2.9.6.46-.06 1.42-.58 1.62-1.14.2-.56.2-1.04.14-1.14-.06-.1-.22-.16-.46-.28Z" />
-              </svg></a>
-            <a href="tel:+919565564785" aria-label="Call Us"><svg viewBox="0 0 24 24">
-                <path
-                  d="M5 3h3l2 5-2.2 1.4a12 12 0 0 0 5.8 5.8L15 13l5 2v3a2 2 0 0 1-2.2 2A16.5 16.5 0 0 1 3 5.2 2 2 0 0 1 5 3Z" />
               </svg></a>
           </div>
         </div>
 
         <div class="f-col">
-          <h4>Quick Links</h4>
+          <h4>Quick links</h4>
           <ul>
-            <li><a href="#shop" data-jump>All Kitchen Spices</a></li>
-            <li><a href="#why" data-jump>Why Choose Us</a></li>
-            <li><a href="#vision-mission" data-jump>Vision &amp; Mission</a></li>
-            <li><a href="#journey" data-jump>Our Promise</a></li>
-            <li><a href="#socials" data-jump>Inside ASHRN Group</a></li>
-            <li><a href="tel:+919565564785">Call Us: +91 95655 64785</a></li>
-            <li><a href="https://wa.me/919565564785" target="_blank" rel="noopener">WhatsApp Direct</a></li>
+            <li><a href="#shop" data-jump>Shop all</a></li>
+            <li><a href="#why" data-jump>Why choose us</a></li>
+            <li><a href="#journey" data-jump>Our promise</a></li>
+            <li><a href="#socials" data-jump>Socials</a></li>
+            <li><a href="tel:+919259869601">Call us</a></li>
+            <li><a href="https://www.instagram.com/Shreeji.essentials" target="_blank" rel="noopener">Instagram</a></li>
+            <li><a href="#shop" data-jump>Explore dry fruits</a></li>
+            <li><a href="#contact" data-jump>Visit us</a></li>
           </ul>
         </div>
 
         <div class="f-col">
-          <h4>Contact &amp; Support</h4>
+          <h4>Contact us</h4>
           <div class="f-contact">
             <div>
               <svg viewBox="0 0 24 24">
                 <path d="M12 21s7-5.2 7-11a7 7 0 1 0-14 0c0 5.8 7 11 7 11Z" />
                 <circle cx="12" cy="10" r="2.6" />
               </svg>
-              <span>ASHRN Group Kitchen Spices &amp; Essentials, India</span>
+              <span>Near Deep Public School, Rohalki Road, Bahadrabad, Haridwar (Uttarakhand) 249402</span>
             </div>
             <div>
               <svg viewBox="0 0 24 24">
                 <path
                   d="M5 3h3l2 5-2.2 1.4a12 12 0 0 0 5.8 5.8L15 13l5 2v3a2 2 0 0 1-2.2 2A16.5 16.5 0 0 1 3 5.2 2 2 0 0 1 5 3Z" />
               </svg>
-              <span><a href="tel:+919565564785">+91 95655 64785</a></span>
+              <span><a href="tel:+919259869601">9259869601</a></span>
             </div>
             <div>
               <svg viewBox="0 0 24 24">
-                <path d="M12.04 2C6.6 2 2.2 6.4 2.2 11.83c0 1.94.55 3.75 1.5 5.3L2 22l5-1.63a9.83 9.83 0 0 0 5.04 1.38c5.43 0 9.83-4.4 9.83-9.83S17.47 2 12.04 2Zm0 17.78a8 8 0 0 1-4.24-1.22l-.3-.18-3.13 1.02 1.04-3.05-.2-.31a7.96 7.96 0 1 1 6.83 3.74Z"/>
+                <path d="M3 6h18v12H3z" />
+                <path d="m3 7 9 6 9-6" />
               </svg>
-              <span><a href="https://wa.me/919565564785?text=Hello%20ASHRN%20Group,%20I%20want%20to%20place%20an%20order" target="_blank" rel="noopener">WhatsApp: +91 95655 64785</a></span>
+              <span>Better yet, see us in person during normal business hours.</span>
             </div>
             <div>
               <svg viewBox="0 0 24 24">
                 <path d="M12 2.8 20 6v6c0 4.8-3.3 8.2-8 9.3C7.3 20.2 4 16.8 4 12V6z" />
                 <path d="m9 12 2 2 4-4" />
               </svg>
-              <span><b>Hours:</b> Open until 6:00 PM</span>
+              <span><b>Hours:</b> Today - Closed</span>
             </div>
           </div>
-          <div class="f-pay" style="margin-top:16px;"><span>UPI</span><span>Google Pay</span><span>PhonePe</span><span>PayTM</span><span>COD</span></div>
+          <div class="f-pay"><span>UPI</span><span>Visa</span><span>RuPay</span><span>Net banking</span><span>Cash on
+              delivery</span></div>
         </div>
-      </div>
-      <div style="margin-top:36px;padding-top:20px;border-top:1px solid var(--line-2);text-align:center;font-size:13px;color:var(--ink-3);">
-        © 2026 ASHRN Group. All rights reserved. 100% Quality Spices, Kitchen Combos &amp; Everyday Essentials across India.
       </div>
     </div>
   </footer>
@@ -3924,326 +3611,373 @@
 
   <script>
     /* ═══════════════════════════════════════════════════════
-       ASHRN GROUP™ — 100% SPICES & KITCHEN ESSENTIALS ENGINE
+      IMAGES — swap every URL below for your own Shreeji Essentials shots.
+       A fallback keeps anything from rendering broken.
        ═══════════════════════════════════════════════════════ */
-    const img = (src, alt, cls = "", seed = "ashrn") =>
-      `<img src="${src}" alt="${alt}" class="${cls}" loading="lazy" onerror="this.onerror=null;this.src='./ashrn_turmeric_pouch.png'">`;
+    const U = () => './mix_dry_fruits.jpg';
+    const PX = (s, w = 900, h = 900) => './mix_dry_fruits.jpg';
+    const img = (src, alt, cls = "", seed = "shreeji") =>
+      `<img src="${src}" alt="${alt}" class="${cls}" loading="lazy" onerror="this.onerror=null;this.src='./mix_dry_fruits.jpg'">`;
 
     /* ═══════ DATA ═══════ */
-    const TOP_TICK = [
-      "Welcome to ASHRN Group™ — 100% Quality Spices & Kitchen Essentials",
-      "Vision: Pure, Affordable & High-Quality Everyday Essentials Across India",
-      "Mission: 100% Quality Spices, Home Decor, Kitchen Combos & Daily Products",
-      "Safe, Clean and Standard-Compliant Production",
-      "Pure Lakadong Turmeric, Teekhi Mirch, Dhaniya & Royal Garam Masala",
-      "Special Kitchen Combo Launch Offer — Flat 28% Off with Code ASHRN10",
-      "WhatsApp Orders & Enquiries: +91 95655 64785 · Open until 6:00 PM"
-    ];
+    const TOP_TICK = ["Thank you for contacting Shree Ram Dry Fruits", "All product 1 kg price", "Freshly packed dry fruits", "Send name, full address with pincode", "Premium quality, hygienic packing"];
 
-    const RUN_STRIP = [
-      "100% Quality Spices",
-      "Pure Turmeric Powder (हल्दी)",
-      "Teekhi Red Chilli (लाल मिर्च)",
-      "Aromatic Coriander (धनिया)",
-      "Royal Garam Masala",
-      "Kitchen King Masala",
-      "5-in-1 Kitchen Combo",
-      "Cold-Pressed Mustard Oil",
-      "Pure Bilona Desi Ghee",
-      "Call / WhatsApp: +91 95655 64785"
-    ];
+    const RUN_STRIP = ["Premium dry fruits", "Freshly packed", "Hygienically packed", "1 kg packs", "Order with name and pincode", "Made with care"];
 
-    const RUN_BOLD = [
-      "ASHRN Group™ Spices",
-      "Pure & Unadulterated",
-      "Safe & Standard-Compliant",
-      "Authentic Indian Kitchen Flavour",
-      "Direct From Farmers",
-      "Trusted Household Brand"
-    ];
+    const RUN_BOLD = ["Shree Ram Dry Fruits", "Premium quality", "Freshness in every pack", "1 kg all products"];
 
     const BANNERS = [
       {
-        tag: "100% Natural · Immunity Booster",
-        h: "Pure Turmeric Powder &", i: "kitchen ka masale",
-        p: "ASHRN Group brings high-curcumin pure Lakadong Turmeric, Teekhi Mirch, Dhaniya and Royal Garam Masala sealed in aroma-retention pouches.",
-        a: "Explore kitchen spices", b: "Our Vision & Mission",
-        href: "#shop", href2: "#vision-mission",
-        img: "./ashrn_turmeric_pouch.png", seed: "ban-1"
+        tag: "Premium · Fresh · Hygienic", h: "Premium dry fruits,", i: "packed with care",
+        p: "Choose from our complete 1 kg range of badam, kaju, anjeer, pista, kismis and more.",
+        a: "View products", b: "How to order", href: "#shop", href2: "#contact",
+        img: "./mix_dry_fruits.jpg", seed: "ban-1"
       },
       {
-        tag: "Special Offer · Flat 28% Off",
-        h: "All-in-One 5-in-1", i: "Kitchen Spice Combo",
-        p: "Complete kitchen set: Turmeric + Red Chilli + Coriander + Cumin + Garam Masala in elegant jars with wooden tray. Use code ASHRN10!",
-        a: "Order combo now", b: "WhatsApp order",
-        href: "#shop", href2: "https://wa.me/919565564785?text=Hello%20ASHRN%20Group,%20I%20want%20to%20order%20the%20Kitchen%20Combo",
-        img: "./kitchen_combo.jpg", seed: "ban-2"
+        tag: "All products · 1 kg price", h: "Fresh taste,", i: "honest quality",
+        p: "From Mamra badam to premium kaju and anjeer, every product is selected and packed fresh.",
+        a: "Shop dry fruits", b: "Why choose us", href: "#shop", href2: "#why",
+        img: "./mamra_badam.jpg", seed: "ban-2"
       },
       {
-        tag: "Authentic Pungency · Zero Color Dyes",
-        h: "Teekhi Red Chilli &", i: "Royal Garam Masala",
-        p: "Triple-cleaned sun-dried chillies and an artisanal blend of 16 roasted whole royal spices. 100% pure taste for unforgettable home meals.",
-        a: "Shop ground spices", b: "Why choose us",
-        href: "#shop", href2: "#why",
-        img: "./pouch_lal_mirch.jpg", seed: "ban-3"
+        tag: "Simple ordering", h: "Send your name,", i: "address and pincode",
+        p: "For order dry fruits send me your name, full address with pincode. We will pack your order with care.",
+        a: "Choose your pack", b: "Contact us", href: "#shop", href2: "#contact",
+        img: "./kaju_w240.jpg", seed: "ban-3"
       },
       {
-        tag: "Our Mission (उद्देश्य) · Pure By Promise",
-        h: "Promoting local businesses &", i: "fair prices for all",
-        p: "Promoting regional farmers and suppliers, creating local employment opportunities, and ensuring safe, clean standard-compliant production.",
-        a: "Read our mission", b: "Contact us",
-        href: "#vision-mission", href2: "#contact",
-        img: "./pouch_dhaniya.jpg", seed: "ban-4"
+        tag: "Premium · Fresh · Hygienic", h: "Crunchy pista,", i: "packed with care",
+        p: "Premium salted pistachios selected for a rich crunch and fresh everyday snacking.",
+        a: "View products", b: "How to order", href: "#shop", href2: "#contact",
+        img: "./salted_pista.jpg", seed: "ban-4"
       },
       {
-        tag: "Cooking Essentials & Home Decor",
-        h: "Cold-Pressed Sarson Oil &", i: "Royal Brass Urli",
-        p: "Traditional Kachi Ghani Mustard Oil, pure Bilona Desi Ghee, and handcrafted brass pooja decor crafted with authentic Indian heritage.",
-        a: "View daily essentials", b: "Call +91 95655 64785",
-        href: "#shop", href2: "tel:+919565564785",
-        img: "./mustard_oil.jpg", seed: "ban-5"
+        tag: "Premium · Fresh · Hygienic", h: "Fresh akhrot,", i: "rich in flavour",
+        p: "Carefully selected walnut kernels with a naturally rich taste and satisfying texture.",
+        a: "View products", b: "Why choose us", href: "#shop", href2: "#why",
+        img: "./akhrot_walnuts.jpg", seed: "ban-5"
+      },
+      {
+        tag: "Freshly packed · 1 kg range", h: "Naturally sweet,", i: "black kismis",
+        p: "Soft, naturally sweet black raisins packed fresh for snacking, desserts and everyday use.",
+        a: "Shop dry fruits", b: "Contact us", href: "#shop", href2: "#contact",
+        img: "./black_kismis.jpg", seed: "ban-6"
+      },
+      {
+        tag: "Freshly packed · 1 kg range", h: "Golden sweetness,", i: "every bite",
+        p: "Bright golden raisins with a soft fruity sweetness, packed carefully for freshness.",
+        a: "Shop dry fruits", b: "How to order", href: "#shop", href2: "#contact",
+        img: "./golden_kismis.jpg", seed: "ban-7"
+      },
+      {
+        tag: "Premium · Naturally sweet", h: "Turkish anjeer,", i: "selected with care",
+        p: "Soft and naturally sweet Turkish figs, carefully selected and packed for a premium experience.",
+        a: "View products", b: "Why choose us", href: "#shop", href2: "#why",
+        img: "./turkish_anjeer.jpg", seed: "ban-8"
+      },
+      {
+        tag: "Premium · Naturally sweet", h: "Soft apricots,", i: "fruity goodness",
+        p: "Naturally tangy apricots with a lovely fruity finish, packed fresh for you.",
+        a: "Shop dry fruits", b: "Contact us", href: "#shop", href2: "#contact",
+        img: "./apricot_product.jpg", seed: "ban-9"
+      },
+      {
+        tag: "Light · Crunchy · Fresh", h: "Makhana,", i: "made for snacking",
+        p: "Light, crunchy fox nuts perfect for roasting, fasting recipes and everyday snacking.",
+        a: "View products", b: "How to order", href: "#shop", href2: "#contact",
+        img: "./makhana_foxnut.jpg", seed: "ban-10"
+      },
+      {
+        tag: "Premium · Aromatic", h: "Pure kesar,", i: "rich aroma",
+        p: "Aromatic saffron strands for milk, sweets, kheer and special festive recipes.",
+        a: "View products", b: "Why choose us", href: "#shop", href2: "#why",
+        img: "./kesar_saffron.jpg", seed: "ban-11"
+      },
+      {
+        tag: "Premium · Aromatic", h: "Green ilayachi,", i: "rich fragrance",
+        p: "Fragrant green cardamom for tea, desserts and festive Indian cooking.",
+        a: "View products", b: "Contact us", href: "#shop", href2: "#contact",
+        img: "./ilayachi_cardamom.jpg", seed: "ban-12"
+      },
+      {
+        tag: "Traditional · Naturally sweet", h: "Dry dates,", i: "everyday goodness",
+        p: "Traditional dry dates for festive recipes, daily snacking and natural sweetness.",
+        a: "Shop dry fruits", b: "How to order", href: "#shop", href2: "#contact",
+        img: "./dry_dates.jpg", seed: "ban-13"
       }
     ];
 
     const WHY = [
       {
-        t: "100% Pure Spices", s: "Zero Adulteration",
-        p: "Pure Lakadong turmeric, rich red chillies, and whole ground spices free from synthetic chemicals, brick powder or dyes.",
+        t: "Premium selection", s: "Naturally good", p: "Carefully selected dry fruits with natural taste and satisfying texture.",
         ico: '<path d="M11 20c0-6 3.4-10.4 9-12-.4 6.6-3.6 10.6-9 12Z"/><path d="M11 20c-3.6-.6-5.8-3-6.4-7 3.6.4 5.8 2.2 6.4 5.4"/><path d="M11 20v2"/>'
       },
       {
-        t: "Promoting Local Suppliers", s: "Community First",
-        p: "Direct partnership with local farmers, spice growers, and regional cottage artisans to support livelihoods.",
+        t: "Farmer sourced", s: "Direct relationships", p: "We source directly from farmers to protect quality from the very beginning.",
         ico: '<path d="M12 21s7-5.2 7-11a7 7 0 1 0-14 0c0 5.8 7 11 7 11Z"/><path d="M9.5 12.5 12 10.2l2.5 2.3V16h-5z"/>'
       },
       {
-        t: "Safe & Clean Production", s: "Standard Compliant",
-        p: "Hygienic processing facilities, strict quality checks, and clean vacuum-sealed zip-lock pouches for freshness.",
+        t: "Hygienic packaging", s: "Safe &amp; clean", p: "Clean, careful packing that helps preserve freshness, aroma and everyday confidence.",
         ico: '<path d="M12 2.8 20 6v6c0 4.8-3.3 8.2-8 9.3C7.3 20.2 4 16.8 4 12V6z"/><path d="m9 12 2 2 4-4"/>'
       },
       {
-        t: "Creating Employment", s: "Empowering People",
-        p: "Building sustainable jobs in packaging, distribution, and handicraft making across Indian communities.",
+        t: "Maximum freshness", s: "Packed with care", p: "We pack for freshness so the aroma and character of each product reach you intact.",
         ico: '<path d="M12 20.5s-7-4.3-7-9.4A3.9 3.9 0 0 1 12 8.6a3.9 3.9 0 0 1 7 2.5c0 5.1-7 9.4-7 9.4Z"/><path d="m9 13 2 2 4-4"/>'
       },
       {
-        t: "Fair & Affordable Price", s: "Honest Value",
-        p: "Delivering the highest grade of everyday essential kitchen spices at fair, family-friendly prices.",
+        t: "Quality focused", s: "Checked with care", p: "High-quality ingredients and dependable standards are at the heart of every pack.",
         ico: '<path d="M9 3h6M10 3v6.5L5.5 18A2.5 2.5 0 0 0 7.8 21.5h8.4A2.5 2.5 0 0 0 18.5 18L14 9.5V3"/><path d="M7.5 15h9"/>'
       },
       {
-        t: "Across India Delivery", s: "Fast & Reliable",
-        p: "Prompt dispatch within 24 hours. Doorstep delivery with Cash on Delivery and direct WhatsApp support.",
+        t: "Authentic taste", s: "Rich aroma", p: "Traditional flavour and vibrant aroma for food that tastes wonderfully homemade.",
         ico: '<path d="M12 21c-4.5-2.2-7-5.4-7-9a4 4 0 0 1 7-2.6A4 4 0 0 1 19 12c0 3.6-2.5 6.8-7 9Z"/><path d="M8 8.5 12 5l4 3.5"/>'
       }
     ];
 
-    const PRODUCTS = [
+    let PRODUCTS = [
       {
-        id: "turmeric-powder", cat: "Ground Spices", name: "ASHRN Group™ Pure Turmeric Powder (हल्दी पाउडर)", tag: "100% Natural", tagc: "best",
-        price: 129, mrp: 179, rating: 4.9, reviews: 342, stock: "In stock",
-        img: ["./ashrn_turmeric_pouch.png", "./haldi_turmeric.jpg", "./kitchen_combo.jpg"],
-        packs: ["200g Pouch", "500g Pack", "1kg Value Pack"],
-        highlights: ["Immunity Booster · Natural Goodness · Aroma Retention", "High Curcumin natural turmeric, zero artificial yellow dye", "Zip-lock freshness stand-up pouch", "Safe, clean & standard-compliant production"],
-        desc: ["ASHRN Group Natural Turmeric Powder brings pure warmth, intense natural aroma and rich golden color to your daily cooking.",
-          "Selected from high-grade sun-dried rhizomes and ground hygienically without any starch or fillers.",
-          "A kitchen essential for curries, dals, golden milk (haldi doodh), and traditional home remedies."],
-        specs: { "Net weight": "200 g (Available in 500g, 1kg)", "Ingredients": "100% Pure Turmeric Rhizomes", "Curcumin Content": "High (Certified)", "Packaging": "Zip-Lock Stand-Up Pouch", "Shelf life": "12 months from packing", "Brand": "ASHRN Group™" }
+        id: "classic", cat: "Plain", name: "Premium Makhana 200g", tag: "Bestseller", tagc: "best",
+        price: 299, mrp: 449, rating: 4.8, reviews: 2140, stock: "In stock",
+        img: [PX("mk-classic-1"), PX("mk-classic-2"), PX("mk-classic-3"), PX("mk-classic-4")],
+        packs: ["100g", "200g", "500g", "1kg"],
+        highlights: ["6-suta grade, hand-sorted for size", "Raw and unroasted — roast it your way", "Nitrogen-flushed pouch keeps it crisp for 9 months", "No oil, no salt, no additives of any kind"],
+        desc: ["The pack that started it all. Raw 6-suta makhana, sun-dried and sorted by hand so every seed in the pouch is roughly the same size.",
+          "Dry roast it for three minutes in a kadhai, add a pinch of ghee and rock salt, and you have the snack our grandmothers made. Or throw it into kheer and let it swell.",
+          "We buy this grade at the pond in Darbhanga and pack it in Ghaziabad within the week, so it reaches you closer to harvest than anything on a supermarket shelf."],
+        specs: { "Grade": "6 suta and above", "Net weight": "200 g", "Ingredients": "100% makhana (fox nut)", "Energy": "347 kcal per 100 g", "Protein": "9.7 g per 100 g", "Fat": "0.1 g per 100 g", "Shelf life": "9 months from packing", "Storage": "Cool, dry place. Reseal after opening", "Allergens": "None. Gluten free", "FSSAI": "10435999000389" }
       },
+
       {
-        id: "red-chilli-powder", cat: "Ground Spices", name: "ASHRN Group™ Teekhi Red Chilli Powder (लाल मिर्च)", tag: "Bestseller", tagc: "best",
-        price: 149, mrp: 199, rating: 4.9, reviews: 290, stock: "In stock",
-        img: ["./pouch_lal_mirch.jpg", "./lal_mirch.jpg", "./kitchen_combo.jpg"],
-        packs: ["200g Pouch", "500g Pack", "1kg Value Pack"],
-        highlights: ["Natural deep red colour without synthetic dye", "Balanced spicy kick and rich pungency", "Triple cleaned and stem-picked chillies", "Safe, clean standard-compliant processing"],
-        desc: ["ASHRN Group Red Chilli Powder gives every curry, marinade and tadka a bold natural red hue and the perfect punch of heat.",
-          "Carefully ground from sun-dried chillies to retain natural capsaicin oils and pungent aroma.",
-          "Free from synthetic food colors, brick powder, or adulterants."],
-        specs: { "Net weight": "200 g (Available in 500g, 1kg)", "Ingredients": "100% Sun-dried Red Chillies", "Purity": "100% Natural", "Packaging": "Aroma-lock Stand-Up Pouch", "Shelf life": "12 months from packing", "Brand": "ASHRN Group™" }
+        id: "peri", cat: "Roasted", name: "Peri Peri Roasted Makhana", tag: "New", tagc: "new",
+        price: 199, mrp: 299, rating: 4.7, reviews: 980, stock: "In stock",
+        img: [PX("mk-peri-1"), PX("mk-peri-2"), PX("mk-peri-3"), PX("mk-peri-4")],
+        packs: ["75g", "150g", "Pack of 3"],
+        highlights: ["Roasted, never fried — 2g fat per serving", "Heat that builds slowly, doesn't punch", "Resealable pouch, fits in a bag", "Under 70 calories per fistful"],
+        desc: ["Roasted in a rotary drum with cold-pressed rice bran oil, then tossed in a peri peri mix we grind in-house.",
+          "The heat sits at about a 5 out of 10 — enough that you notice it, not so much that you stop eating.",
+          "Popular as an evening snack and, judging by reorders, as a replacement for whatever used to live in the office drawer."],
+        specs: { "Grade": "5–6 suta", "Net weight": "150 g", "Ingredients": "Makhana, rice bran oil, peri peri seasoning, salt", "Energy": "412 kcal per 100 g", "Protein": "8.9 g per 100 g", "Fat": "9.2 g per 100 g", "Shelf life": "6 months from packing", "Storage": "Cool, dry place", "Allergens": "None. Gluten free", "FSSAI": "10435999000389" }
       },
+
       {
-        id: "coriander-powder", cat: "Ground Spices", name: "ASHRN Group™ Fresh Coriander Powder (धनिया पाउडर)", tag: "Fresh Aroma", tagc: "new",
-        price: 119, mrp: 160, rating: 4.8, reviews: 185, stock: "In stock",
-        img: ["./pouch_dhaniya.jpg", "./dhaniya_powder.jpg", "./kitchen_combo.jpg"],
-        packs: ["200g Pouch", "500g Pack", "1kg Value Pack"],
-        highlights: ["Freshly crushed aroma from selected coriander seeds", "Adds rich body and thickness to curries", "Coarsely ground to preserve volatile essential oils", "No moisture or chalk powder"],
-        desc: ["Fresh Coriander Powder by ASHRN Group lends a soothing citrusy aroma and wholesome flavor to everyday meals.",
-          "Cleaned and slowly ground at low temperature to protect its natural fragrance and subtle sweet notes.",
-          "Perfect for gravies, chutneys, dry sabzis, and marinades."],
-        specs: { "Net weight": "200 g", "Ingredients": "100% Selected Coriander Seeds", "Aroma": "Intense & Natural", "Packaging": "Aroma-Lock Pouch", "Shelf life": "12 months from packing", "Brand": "ASHRN Group™" }
+        id: "cheese", cat: "Roasted", name: "Cheese &amp; Herb Makhana",
+        price: 199, mrp: 299, rating: 4.6, reviews: 640, stock: "In stock",
+        img: [PX("mk-cheese-1"), PX("mk-cheese-2"), PX("mk-cheese-3"), PX("mk-cheese-4")],
+        packs: ["75g", "150g", "Pack of 3"],
+        highlights: ["Real cheese powder, not a flavour identical", "Oregano and parsley ground fresh each batch", "Roasted, never fried", "The one kids finish first"],
+        desc: ["Cheddar powder, oregano, parsley and a little garlic, tossed over drum-roasted makhana while it's still warm so the seasoning sticks.",
+          "Mild enough for children, savoury enough that adults keep reaching in.",
+          "If you're buying for a family, this is the flavour that disappears fastest — the pack of three exists for a reason."],
+        specs: { "Grade": "5–6 suta", "Net weight": "150 g", "Ingredients": "Makhana, rice bran oil, cheddar powder, herbs, salt", "Energy": "418 kcal per 100 g", "Protein": "9.4 g per 100 g", "Fat": "9.8 g per 100 g", "Shelf life": "6 months from packing", "Storage": "Cool, dry place", "Allergens": "Contains milk", "FSSAI": "10435999000389" }
       },
+
       {
-        id: "garam-masala", cat: "Ground Spices", name: "ASHRN Group™ Royal Garam Masala (शाही गरम मसाला)", tag: "Chef Special", tagc: "best",
-        price: 189, mrp: 249, rating: 4.9, reviews: 410, stock: "In stock",
-        img: ["./pouch_garam_masala.jpg", "./garam_masala.jpg", "./kitchen_combo.jpg"],
-        packs: ["100g", "200g Pouch", "500g Pack"],
-        highlights: ["Blend of 16 whole roasted royal spices", "Includes black cardamom, star anise, mace and cloves", "Just half a spoon needed to elevate any dish", "Hygienically formulated for maximum shelf aroma"],
-        desc: ["Our Authentic Garam Masala is an artisanal royal blend crafted to finish dishes with warmth, depth and a fragrant aroma.",
-          "Add a pinch at the end of cooking to unleash the richness of freshly ground black cardamom, cinnamon, cloves and nutmeg.",
-          "Transforms simple dal, paneer, biryani, and curries into restaurant-style feasts."],
-        specs: { "Net weight": "200 g", "Ingredients": "Black cardamom, cinnamon, star anise, cloves, bay leaves, mace, jeera", "Blend": "Shahi Traditional", "Packaging": "Aroma-Lock Pouch", "Brand": "ASHRN Group™" }
+        id: "pudina", cat: "Roasted", name: "Pudina Masala Makhana", tag: "25% off",
+        price: 189, mrp: 279, rating: 4.7, reviews: 520, stock: "In stock",
+        img: [PX("mk-pudina-1"), PX("mk-pudina-2"), PX("mk-pudina-3"), PX("mk-pudina-4")],
+        packs: ["75g", "150g", "Pack of 3"],
+        highlights: ["Dried mint and amchur, no artificial cooling agents", "Tangy rather than spicy", "Roasted, never fried", "Travels well — a favourite on train journeys"],
+        desc: ["Mint leaves dried in the shade so they keep their colour, ground with amchur, black salt and a little jeera.",
+          "It reads tangy first, cool second. No chilli to speak of, so it works for people who want flavour without heat.",
+          "Also the one people pack for flights and long drives, going by what turns up in our reviews."],
+        specs: { "Grade": "5–6 suta", "Net weight": "150 g", "Ingredients": "Makhana, rice bran oil, mint, amchur, black salt, cumin", "Energy": "405 kcal per 100 g", "Protein": "9.1 g per 100 g", "Fat": "8.7 g per 100 g", "Shelf life": "6 months from packing", "Storage": "Cool, dry place", "Allergens": "None. Gluten free", "FSSAI": "10435999000389" }
       },
+
       {
-        id: "kitchen-combo-5in1", cat: "Kitchen Combos", name: "ASHRN 5-in-1 Master Kitchen Combo (किचन कॉम्बो)", tag: "Save 28%", tagc: "best",
-        price: 649, mrp: 899, rating: 5.0, reviews: 520, stock: "Bestseller Pack",
-        img: ["./kitchen_combo.jpg", "./ashrn_turmeric_pouch.png", "./pouch_lal_mirch.jpg"],
-        packs: ["Standard Pack (200g each)", "Mega Kitchen Pack (500g each)"],
-        highlights: ["Contains: Haldi + Lal Mirch + Dhaniya + Jeera + Garam Masala", "Includes free wooden display rack / tray", "Best value for monthly refill or new kitchen setup", "Save ₹250 compared to individual packs"],
-        desc: ["The complete spice solution for every Indian kitchen. The ASHRN Group 5-in-1 Kitchen Combo gives you all foundational cooking spices in one convenient pack.",
-          "Every spice is carefully sourced, hygienically processed, and sealed in airtight containers to preserve freshness.",
-          "A thoughtful gift for housewarming, weddings, or upgrading your own kitchen spice cabinet."],
-        specs: { "Contents": "Haldi (200g), Lal Mirch (200g), Dhaniya (200g), Jeera (200g), Garam Masala (100g)", "Bonus": "Artisan wooden container tray", "Offer": "Special 28% Discount", "Brand": "ASHRN Group™" }
+        id: "combo", cat: "Gifting", name: "Festive Trio Gift Box", tag: "Gift",
+        price: 749, mrp: 1099, rating: 4.9, reviews: 310, stock: "Limited festive stock",
+        img: [PX("mk-combo-1"), PX("mk-combo-2"), PX("mk-combo-3"), PX("mk-combo-4")],
+        packs: ["Box of 3", "Box of 6"],
+        highlights: ["Three flavours in a Mithila-art printed box", "Personalised card on request", "Corporate orders from 25 boxes upward", "Ships anywhere in India"],
+        desc: ["Peri peri, cheese and herb, and pudina masala in a rigid box printed with Mithila artwork by a Madhubani artist we work with.",
+          "Meant for Diwali and wedding gifting, but it sells all year to people who'd rather give a snack than another dry-fruit tin.",
+          "For corporate orders we print your logo on the sleeve and ship direct to each address. Write to us for a quote."],
+        specs: { "Contents": "3 × 150 g pouches", "Flavours": "Peri peri, cheese &amp; herb, pudina", "Box": "Rigid board, Mithila art print", "Net weight": "450 g", "Shelf life": "6 months from packing", "Personalisation": "Card and logo sleeve on request", "Allergens": "Contains milk (cheese pouch)", "FSSAI": "10435999000389" }
       },
+
       {
-        id: "kitchen-king-masala", cat: "Ground Spices", name: "ASHRN Group™ Kitchen King Masala (किचन किंग)", tag: "All-Rounder", tagc: "new",
-        price: 179, mrp: 229, rating: 4.8, reviews: 215, stock: "In stock",
-        img: ["./kitchen_king.jpg", "./pouch_garam_masala.jpg", "./kitchen_combo.jpg"],
-        packs: ["100g", "200g Pouch", "500g Pack"],
-        highlights: ["Universal masala for all paneer, mix-veg & dal recipes", "Balanced mild spice with roasted coriander & cumin", "Gives rich golden gravy consistency", "No preservatives or MSG"],
-        desc: ["ASHRN Kitchen King Masala is the king of spice blends. Crafted with a delicate balance of over 15 herbs and roasted spices, it enhances any vegetable curry.",
-          "Ideal for everyday cooking when you want full flavor without having to measure ten individual spices.",
-          "Tested for safety and purity in standard-compliant facilities."],
-        specs: { "Net weight": "200 g", "Type": "All-in-One Curry Masala", "Purity": "100% Vegetarian", "Shelf life": "12 months", "Brand": "ASHRN Group™" }
+        id: "bulk", cat: "Bulk", name: "Raw Makhana 1kg Value Pack",
+        price: 1099, mrp: 1599, rating: 4.8, reviews: 410, stock: "In stock",
+        img: [PX("mk-bulk-1"), PX("mk-bulk-2"), PX("mk-bulk-3"), PX("mk-bulk-4")],
+        packs: ["1kg", "5kg", "10kg"],
+        highlights: ["Works out to ₹110 per 100g", "Same 6-suta grade as the retail pack", "Double-sealed food-grade liner", "Free delivery, dispatched within 24 hours"],
+        desc: ["The same grade we sell in the 200g pouch, in a size that makes sense for a family, a cloud kitchen or a shop.",
+          "Comes double-sealed with an inner food-grade liner so you can open the outer bag and still keep the rest crisp.",
+          "For 5kg and above we ship in cartons and can invoice with GST. Distributor pricing on request."],
+        specs: { "Grade": "6 suta and above", "Net weight": "1 kg", "Ingredients": "100% makhana (fox nut)", "Energy": "347 kcal per 100 g", "Protein": "9.7 g per 100 g", "Shelf life": "9 months from packing", "Packing": "Double sealed with inner liner", "GST invoice": "Available on request", "FSSAI": "10435999000389" }
       },
+
       {
-        id: "daily-cooking-essentials-combo", cat: "Kitchen Combos", name: "Daily Cooking Essentials Trio Combo (दैनिक कॉम्बो)", tag: "Value Pack", tagc: "best",
-        price: 449, mrp: 599, rating: 4.9, reviews: 195, stock: "In stock",
-        img: ["./kitchen_combo.jpg", "./mustard_oil.jpg", "./ashrn_turmeric_pouch.png"],
-        packs: ["Standard Pack", "Family Pack"],
-        highlights: ["Includes: Turmeric Pouch (200g) + Red Chilli Pouch (200g) + Kachi Ghani Mustard Oil (1L)", "The foundational kitchen essentials bundle", "Save 25% on combined MRP", "Hygienic standard-compliant packaging"],
-        desc: ["Everything you need to start cooking fresh, delicious, wholesome meals every day.",
-          "A combination of our finest cold-pressed Mustard Oil and everyday pure spices.",
-          "Guaranteed pure, unadulterated, and direct from source."],
-        specs: { "Contents": "Pure Haldi (200g), Lal Mirch (200g), Mustard Oil (1L)", "Savings": "₹150 off MRP", "Brand": "ASHRN Group™" }
+        id: "chocolate", cat: "Roasted", name: "Chocolate Coated Makhana", tag: "New", tagc: "new",
+        price: 279, mrp: 399, rating: 4.5, reviews: 230, stock: "In stock",
+        img: [PX("mk-choc-1"), PX("mk-choc-2"), PX("mk-choc-3"), PX("mk-choc-4")],
+        packs: ["100g", "200g"],
+        highlights: ["54% dark couverture, not compound", "Half the sugar of a standard chocolate snack", "Stays crisp inside the coating", "Keep refrigerated in summer"],
+        desc: ["Roasted makhana tumbled in 54% dark couverture until each seed has a thin, even shell.",
+          "Because the makhana inside stays dry, you get a crack and then a puff rather than the dense chew of a chocolate-coated nut.",
+          "It's still a treat, not a health food — but with about half the sugar of most coated snacks on the shelf."],
+        specs: { "Grade": "5 suta", "Net weight": "200 g", "Ingredients": "Makhana, dark couverture chocolate (54% cocoa), sugar", "Energy": "462 kcal per 100 g", "Protein": "7.8 g per 100 g", "Sugar": "21 g per 100 g", "Shelf life": "4 months from packing", "Storage": "Below 22°C. Refrigerate in summer", "Allergens": "Contains milk, soy", "FSSAI": "10435999000389" }
       },
+
       {
-        id: "shahi-curry-combo", cat: "Kitchen Combos", name: "Master Chef Shahi Curry Combo (शाही करी कॉम्बो)", tag: "Special Blend", tagc: "best",
-        price: 499, mrp: 679, rating: 4.9, reviews: 160, stock: "In stock",
-        img: ["./pouch_garam_masala.jpg", "./kitchen_king.jpg", "./pouch_dhaniya.jpg"],
-        packs: ["Combo Pack (200g each)"],
-        highlights: ["Includes: Royal Garam Masala (200g) + Kitchen King (200g) + Fresh Coriander (200g)", "Curated for rich restaurant-style gravies and curries", "100% natural, intensely aromatic spices", "Aroma-lock ziplock pouches"],
-        desc: ["The secret behind rich, fragrant, restaurant-quality curries at home.",
-          "Use the Kitchen King during gravy simmering and finish with a sprinkle of Royal Garam Masala for pure magic.",
-          "100% natural ingredients with zero adulteration."],
-        specs: { "Contents": "Garam Masala (200g), Kitchen King (200g), Dhaniya (200g)", "Brand": "ASHRN Group™" }
-      },
-      {
-        id: "jeera-whole", cat: "Whole Spices", name: "ASHRN Group™ Premium Jeera Whole (साबुत जीरा)", tag: "Unpolished", tagc: "best",
-        price: 199, mrp: 260, rating: 4.9, reviews: 230, stock: "In stock",
-        img: ["./kitchen_combo.jpg", "./pouch_dhaniya.jpg", "./kitchen_king.jpg"],
-        packs: ["100g", "200g Pouch", "500g Pack"],
-        highlights: ["Bold, naturally aromatic cumin seeds", "Machine-cleaned with zero dust, dirt, or stones", "High essential oil content for fragrant tadkas", "Unpolished and chemical-free"],
-        desc: ["ASHRN Group Whole Jeera is carefully selected for bold seeds, distinct aroma, and crisp crunch.",
-          "Enhances dals, jeera rice, aloo subzi, and everyday Indian tadka.",
-          "Sealed fresh in moisture-proof packaging."],
-        specs: { "Net weight": "200 g", "Type": "Whole Cumin Seeds", "Purity": "100% Natural", "Brand": "ASHRN Group™" }
-      },
-      {
-        id: "hari-ilayachi", cat: "Whole Spices", name: "ASHRN Group™ Hari Ilayachi - Green Cardamom (हरी इलायची)", tag: "8mm Bold", tagc: "new",
-        price: 350, mrp: 450, rating: 4.9, reviews: 210, stock: "In stock",
-        img: ["./ilayachi_cardamom.jpg", "./kitchen_combo.jpg", "./kesar_saffron.jpg"],
-        packs: ["50g", "100g Pouch", "250g Pack"],
-        highlights: ["Bold 8mm green cardamom pods", "Intensely aromatic seeds inside with high volatile oil", "Essential for Indian chai, sweets and pulao", "Naturally shade-dried to retain emerald green hue"],
-        desc: ["Plump, fragrant green cardamom pods from the hills of Western Ghats.",
-          "Crush a pod for fragrant masala chai or powder for aromatic gulab jamun and kheer.",
-          "Cleaned, sorted, and packed in freshness pouches."],
-        specs: { "Net weight": "100g", "Size": "8mm Bold", "Aroma": "Intense Sweet Floral", "Shelf life": "12 months", "Brand": "ASHRN Group™" }
-      },
-      {
-        id: "pure-kesar", cat: "Whole Spices", name: "ASHRN Group™ Kashmir Mogra Kesar (शुद्ध कश्मीरी केसर)", tag: "Grade 1", tagc: "best",
-        price: 220, mrp: 299, rating: 5.0, reviews: 160, stock: "In stock",
-        img: ["./kesar_saffron.jpg", "./ilayachi_cardamom.jpg", "./kitchen_combo.jpg"],
-        packs: ["1 Gram", "2 Grams", "5 Grams"],
-        highlights: ["100% Original Kashmiri Mogra saffron strands", "Deep crimson filaments with golden tip", "Incredible natural aroma and yellow coloring power", "Sealed in protective glass ampoule"],
-        desc: ["Hand-picked Kashmiri saffron stigmas known for unmatched fragrance, medicinal value, and royal color.",
-          "A single pinch infuses biryani, kheer, saffron milk, or face packs with intoxicating aroma.",
-          "Tested for purity and moisture content."],
-        specs: { "Net weight": "1 Gram", "Grade": "Mogra Grade 1", "Purity": "100% Saffron", "Origin": "Pampore, Kashmir", "Brand": "ASHRN Group™" }
-      },
-      {
-        id: "mustard-oil", cat: "Cooking Essentials", name: "ASHRN Group™ Kachi Ghani Mustard Oil (कच्ची घानी सरसों का तेल)", tag: "Cold Pressed", tagc: "best",
-        price: 199, mrp: 260, rating: 4.9, reviews: 380, stock: "In stock",
-        img: ["./mustard_oil.jpg", "./kitchen_combo.jpg", "./ashrn_turmeric_pouch.png"],
-        packs: ["1 Litre Bottle", "2 Litre Can", "5 Litre Jar"],
-        highlights: ["Traditional cold-pressed Kachi Ghani extraction", "Pungent natural aroma (Jhaanjh)", "Rich in Omega-3 and natural antioxidants", "Zero palm oil, zero chemical solvents"],
-        desc: ["Experience the authentic flavor of traditional Indian cooking with ASHRN Group Pure Kachi Ghani Mustard Oil.",
-          "Extracted at low temperature from first-grade black mustard seeds to retain its pungent aroma, natural nutrients, and bright golden clarity.",
-          "The secret behind perfect pickles, fish curries, roasted vegetables, and crispy puris."],
-        specs: { "Volume": "1 Litre", "Method": "Cold-Pressed (Kachi Ghani)", "Raw Material": "100% Black Mustard Seeds", "Trans Fat": "0g", "Cholesterol": "0mg", "Brand": "ASHRN Group™" }
-      },
-      {
-        id: "pure-desi-ghee", cat: "Cooking Essentials", name: "ASHRN Group™ Bilona Pure Desi Ghee (शुद्ध देसी घी)", tag: "Danedar & Pure", tagc: "best",
-        price: 499, mrp: 650, rating: 5.0, reviews: 460, stock: "In stock",
-        img: ["./desi_ghee.jpg", "./kitchen_combo.jpg", "./ashrn_turmeric_pouch.png"],
-        packs: ["500 ml", "1 Litre", "2 Litre"],
-        highlights: ["Crafted using traditional curd churning (Bilona method)", "Rich golden granular (danedar) texture", "Authentic village cow milk aroma", "Free from vegetable fats and preservatives"],
-        desc: ["ASHRN Group Pure Desi Ghee is made the traditional way — slow-cooked from cultured butter until it attains a heavenly aroma and granular texture.",
-          "Nourishes the body with healthy fats, vitamins A, D, E, and boosts digestion.",
-          "Perfect for rotis, dal tadka, festive halwa, kheer, and daily pooja."],
-        specs: { "Volume": "500 ml / 1 Litre", "Process": "Traditional Bilona Curd Churning", "Texture": "Danedar (Granular)", "Purity": "100% Pure Ghee", "Shelf life": "9 months", "Brand": "ASHRN Group™" }
-      },
-      {
-        id: "handcrafted-brass-urli", cat: "Home Decor", name: "ASHRN Group™ Handcrafted Royal Brass Urli (होम डेकोर)", tag: "Handmade Decor", tagc: "new",
-        price: 899, mrp: 1299, rating: 4.9, reviews: 140, stock: "Artisan Stock",
-        img: ["./home_decor.jpg", "./ashrn_logo.jpg", "./kitchen_combo.jpg"],
-        packs: ["10 Inch", "12 Inch Large", "14 Inch Grand"],
-        highlights: ["Hand-carved solid antique brass by local artisans", "Designed for floating marigold flowers & lit diyas", "Brings positive energy, prosperity and elegance", "Supports local Indian handicraft artisans"],
-        desc: ["Elevate your living room, entrance, or pooja space with the ASHRN Group Handcrafted Royal Brass Urli.",
-          "Artisanal hand-hammered brass with peacocks and floral engravings, finished in a warm antique golden patina.",
-          "As part of our mission to promote local businesses and create employment, each piece directly supports traditional Indian metalcraft artisans."],
-        specs: { "Material": "100% Solid Brass", "Craft": "Hand-engraved by Indian Artisans", "Finish": "Antique Gold Lacquer", "Care": "Wipe with dry cloth", "Brand": "ASHRN Group™ Home Decor" }
+        id: "jaggery", cat: "Roasted", name: "Jaggery Caramel Makhana",
+        price: 249, mrp: 349, rating: 4.6, reviews: 190, stock: "In stock",
+        img: [PX("mk-jag-1"), PX("mk-jag-2"), PX("mk-jag-3"), PX("mk-jag-4")],
+        packs: ["100g", "200g"],
+        highlights: ["Sweetened with Kolhapuri jaggery, no refined sugar", "Thin caramel shell, not a sticky clump", "Iron and mineral content from the gur", "A cleaner alternative to caramel popcorn"],
+        desc: ["Jaggery from Kolhapur melted down with a little ghee and folded through roasted makhana until it sets into a thin, snappable caramel.",
+          "No refined sugar, and the gur brings a mineral depth that plain caramel doesn't have.",
+          "Best eaten within a month of opening — after that the caramel softens, though nobody has reported a pack lasting that long."],
+        specs: { "Grade": "5–6 suta", "Net weight": "200 g", "Ingredients": "Makhana, jaggery, ghee, cardamom", "Energy": "431 kcal per 100 g", "Protein": "8.2 g per 100 g", "Sugar": "Jaggery only, no refined sugar", "Shelf life": "5 months from packing", "Storage": "Airtight, cool and dry", "Allergens": "Contains milk (ghee)", "FSSAI": "10435999000389" }
       }
     ];
 
-    /* Reels */
+    PRODUCTS = [
+      {
+        id: "turmeric", cat: "Ground spice", name: "Natural Turmeric Powder", tag: "Bestseller", tagc: "best",
+        price: 149, mrp: 189, rating: 4.9, reviews: 80, stock: "In stock",
+        img: [U("1596040033229-a9821ebd058d", 900), U("1596040033229-a9821ebd058d", 900), U("1596040033229-a9821ebd058d", 900), U("1596040033229-a9821ebd058d", 900)], packs: ["100g", "200g", "500g"],
+        highlights: ["Pure and naturally aromatic", "Hygienically packed for freshness", "Rich colour for everyday cooking", "Sourced directly from farmers"],
+        desc: ["Shreeji Essentials Natural Turmeric Powder brings warm aroma, rich colour and authentic taste to everyday cooking.", "Selected with care and hygienically packed so every spoonful feels fresh and dependable.", "A kitchen essential for curries, dals, marinades and traditional home recipes."],
+        specs: { "Net weight": "100 g", "Ingredients": "Natural turmeric", "Purity": "Pure and natural", "Shelf life": "12 months from packing", "Storage": "Cool, dry place", "Packaging": "Hygienically packed", "Brand": "Shreeji Essentials" }
+      },
+      {
+        id: "coriander", cat: "Ground spice", name: "Fresh Coriander Powder", tag: "Popular", tagc: "new",
+        price: 139, mrp: 179, rating: 4.8, reviews: 80, stock: "In stock",
+        img: [U("1532336414038-cf19250c5757", 900), U("1532336414038-cf19250c5757", 900), U("1532336414038-cf19250c5757", 900), U("1532336414038-cf19250c5757", 900)], packs: ["100g", "200g", "500g"],
+        highlights: ["Fresh, fragrant coriander aroma", "Smooth everyday texture", "Carefully sourced ingredients", "Great for curries and chutneys"],
+        desc: ["Fresh Coriander Powder adds a gentle, earthy fragrance and rounded flavour to your favourite dishes.", "It is carefully packed to help retain its natural character from the first spoon to the last.", "Use it in gravies, dals, vegetables, chutneys and homemade masala blends."],
+        specs: { "Net weight": "100 g", "Ingredients": "Coriander seeds", "Purity": "Pure and natural", "Shelf life": "12 months from packing", "Storage": "Cool, dry place", "Packaging": "Hygienically packed", "Brand": "Shreeji Essentials" }
+      },
+      {
+        id: "red-chilli", cat: "Ground spice", name: "Red Chilli Powder", tag: "Everyday essential", tagc: "best",
+        price: 159, mrp: 199, rating: 4.8, reviews: 80, stock: "In stock",
+        img: [U("1532336414038-cf19250c5757", 900), U("1532336414038-cf19250c5757", 900), U("1532336414038-cf19250c5757", 900), U("1532336414038-cf19250c5757", 900)], packs: ["100g", "200g", "500g"],
+        highlights: ["Vibrant natural colour", "Balanced spice for daily cooking", "Rich aroma and authentic taste", "No unnecessary fillers"],
+        desc: ["Shreeji Red Chilli Powder brings beautiful colour and a balanced warmth to food without overpowering its natural flavours.", "A versatile staple for tadkas, curries, marinades and snacks.", "Packed with care to help keep the aroma vibrant in your kitchen."],
+        specs: { "Net weight": "100 g", "Ingredients": "Red chillies", "Purity": "Pure and natural", "Shelf life": "12 months from packing", "Storage": "Cool, dry place", "Packaging": "Hygienically packed", "Brand": "Shreeji Essentials" }
+      },
+      {
+        id: "garam-masala", cat: "Blended masala", name: "Authentic Garam Masala", tag: "Signature blend", tagc: "new",
+        price: 179, mrp: 229, rating: 4.9, reviews: 80, stock: "In stock",
+        img: [U("1596040033229-a9821ebd058d", 900), U("1532336414038-cf19250c5757", 900), U("1596040033229-a9821ebd058d", 900), U("1532336414038-cf19250c5757", 900)], packs: ["50g", "100g", "200g"],
+        highlights: ["Aromatic traditional blend", "Deep, balanced flavour", "Ideal for curries and biryani", "Made for everyday Indian cooking"],
+        desc: ["Our Authentic Garam Masala is a fragrant blend designed to finish dishes with warmth, depth and a memorable aroma.", "Add a little at the end of cooking for a rounded flavour that tastes homemade.", "A dependable pantry staple for curries, pulao, biryani and special family meals."],
+        specs: { "Net weight": "50 g", "Ingredients": "Selected whole spices", "Blend": "Traditional garam masala", "Shelf life": "12 months from packing", "Storage": "Cool, dry place", "Packaging": "Hygienically packed", "Brand": "Shreeji Essentials" }
+      },
+      {
+        id: "cumin", cat: "Whole spice", name: "Premium Jeera Whole", tag: "Pure spice", tagc: "",
+        price: 129, mrp: 169, rating: 4.8, reviews: 80, stock: "In stock",
+        img: [U("1532336414038-cf19250c5757", 900), U("1596040033229-a9821ebd058d", 900), U("1532336414038-cf19250c5757", 900), U("1596040033229-a9821ebd058d", 900)], packs: ["100g", "200g", "500g"],
+        highlights: ["Naturally warm aroma", "Carefully selected whole spice", "Perfect for tadka and tempering", "Hygienically packed"],
+        desc: ["Premium Jeera Whole gives tadkas, rice dishes and savoury recipes a warm, unmistakable aroma.", "Selected for quality and packed hygienically to keep the spice ready for everyday use.", "Use whole, dry roasted or freshly ground according to your recipe."],
+        specs: { "Net weight": "100 g", "Ingredients": "Whole cumin seeds", "Purity": "Pure and natural", "Shelf life": "12 months from packing", "Storage": "Cool, dry place", "Packaging": "Hygienically packed", "Brand": "Shreeji Essentials" }
+      },
+      {
+        id: "combo", cat: "Value combo", name: "Everyday Masala Collection", tag: "Best value", tagc: "best",
+        price: 499, mrp: 625, rating: 4.9, reviews: 80, stock: "In stock",
+        img: [U("1532336414038-cf19250c5757", 900), U("1596040033229-a9821ebd058d", 900), U("1532336414038-cf19250c5757", 900), U("1596040033229-a9821ebd058d", 900)], packs: ["Combo of 4", "Combo of 6"],
+        highlights: ["Everyday kitchen essentials", "Great value for families", "Pure and natural ingredients", "20% off this month"],
+        desc: ["Build a dependable spice shelf with a selection of Shreeji Essentials favourites for everyday Indian cooking.", "The collection makes it easy to bring authentic aroma and rich flavour to dals, vegetables, curries and rice dishes.", "A thoughtful choice for your own kitchen or as a practical gift for someone who loves to cook."],
+        specs: { "Contents": "Selected Shreeji spice packs", "Ingredients": "Pure spices and masalas", "Packaging": "Hygienically packed", "Offer": "20% off this month", "Shelf life": "12 months from packing", "Brand": "Shreeji Essentials" }
+      }
+    ];
+
+    const dryFruitImages = {
+      almonds: "./mamra_badam.jpg",
+      cashews: "./kaju_w240.jpg",
+      pistachios: "./salted_pista.jpg",
+      walnuts: "./akhrot_walnuts.jpg",
+      raisins: "./black_kismis.jpg",
+      golden_raisins: "./golden_kismis.jpg",
+      figs: "./turkish_anjeer.jpg",
+      apricots: "./apricot_product.jpg",
+      makhana: "./makhana_foxnut.jpg",
+      saffron: "./kesar_saffron.jpg",
+      cardamom: "./ilayachi_cardamom.jpg",
+      dates: "./dry_dates.jpg",
+      mix: "./mix_dry_fruits.jpg"
+    };
+    const dryFruitProduct = (id, cat, name, price, tag, imageKey, description) => ({
+      id, cat, name, tag, tagc: tag === "Popular" ? "best" : "new", price, mrp: price,
+      rating: 4.9, reviews: 80, stock: "In stock", img: [dryFruitImages[imageKey], dryFruitImages[imageKey], dryFruitImages[imageKey], dryFruitImages[imageKey]], packs: ["1 kg"],
+      highlights: ["Premium quality dry fruit", "Cleanly sorted and hygienically packed", "Freshness sealed for every order", "Perfect for gifting and daily snacking"],
+      desc: [description, "Each order is packed with care so the natural taste, texture and aroma reach you fresh.", "For order dry fruits send me your name, full address with pincode."],
+      specs: { "Net weight": "1 kg", "Ingredients": name, "Quality": "Premium selected dry fruits", "Packing": "Hygienically packed", "Shelf life": "6 months from packing", "Storage": "Cool, dry place", "Brand": "Shree Ram Dry Fruits" }
+    });
+    PRODUCTS = [
+      dryFruitProduct("mamra-badam", "Almonds", "Mamra Badam", 1100, "Popular", "almonds", "Rich, naturally sweet Mamra almonds with a satisfying crunch."),
+      dryFruitProduct("turkish-anjeer", "Figs", "Turkish Anjeer", 1000, "Popular", "figs", "Soft and naturally sweet Turkish figs, carefully selected for quality."),
+      dryFruitProduct("regular-badam", "Almonds", "Regular Badam", 400, "Value", "almonds", "Everyday almonds for snacking, milk, sweets and homemade recipes."),
+      dryFruitProduct("american-badam", "Almonds", "American Badam", 500, "Popular", "almonds", "Crisp American almonds with a clean, fresh taste."),
+      dryFruitProduct("kaju-w240", "Cashews", "Kaju W240", 600, "Popular", "cashews", "Large, creamy W240 cashews selected for premium snacking."),
+      dryFruitProduct("kaju-w320", "Cashews", "Kaju W320", 550, "Popular", "cashews", "Classic W320 cashews with a buttery bite and fresh aroma."),
+      dryFruitProduct("regular-kaju", "Cashews", "Regular Kaju", 500, "Value", "cashews", "Wholesome regular cashews for everyday use and festive treats."),
+      dryFruitProduct("salted-pista", "Pistachios", "Salted Pista", 800, "Popular", "pistachios", "Crunchy pistachios with a balanced salted finish."),
+      dryFruitProduct("afghani-anjeer", "Figs", "Anjeer Afghani", 900, "Popular", "figs", "Naturally sweet Afghani anjeer with a rich, chewy texture."),
+      dryFruitProduct("akhrot", "Walnuts", "Akhrot", 800, "Popular", "walnuts", "Fresh walnut kernels with a deep, earthy flavour."),
+      dryFruitProduct("black-kismis", "Raisins", "Black Kismis", 200, "Value", "raisins", "Naturally sweet black raisins for snacking and desserts."),
+      dryFruitProduct("golden-kismis", "Raisins", "Golden Kismis", 180, "Value", "golden_raisins", "Bright golden raisins with a soft, fruity sweetness."),
+      dryFruitProduct("dry-dates", "Dates", "Dry Dates Box", 250, "Popular", "dates", "Traditional dry dates packed for festive recipes and daily energy."),
+      dryFruitProduct("kesar", "Saffron", "Kesar 1 gm", 200, "Premium", "saffron", "Aromatic saffron strands for milk, sweets, kheer and special recipes."),
+      dryFruitProduct("tukra-kaju", "Cashews", "Tukra Kaju", 350, "Value", "cashews", "Flavourful cashew pieces, ideal for cooking, sweets and toppings."),
+      dryFruitProduct("makhana", "Makhana", "Makhana", 300, "Popular", "makhana", "Light, crunchy makhana for roasting, snacking and fasting recipes."),
+      dryFruitProduct("mix-dry-fruits", "Mixes", "Mix Dry Fruits", 450, "Popular", "mix", "A generous mix of favourite dry fruits for sharing and gifting."),
+      dryFruitProduct("apricot", "Fruits", "Apricot", 400, "Popular", "apricots", "Soft, naturally tangy apricots with a lovely fruity finish."),
+      dryFruitProduct("ilayachi", "Spices", "Ilayachi", 1500, "Premium", "cardamom", "Fragrant green cardamom for tea, desserts and festive cooking.")
+    ];
+
+    /* Reels — add permanent ones here; admins can add more from the page */
     const REELS = [
       {
-        cap: "ASHRN Group™ Pure Turmeric Powder — 100% Natural & Curcumin Rich", tag: "Spices", views: "74.2K",
-        thumb: "./ashrn_turmeric_pouch.png", url: "https://wa.me/919565564785"
+        cap: "Premium Mamra Badam — freshly packed 1 kg", tag: "Almonds", views: "48.2K",
+        thumb: "./mamra_badam.jpg", url: "https://www.instagram.com/Shreeji.essentials"
       },
       {
-        cap: "Teekhi Red Chilli & Coriander Pouch Packaging Day", tag: "Spices", views: "68.4K",
-        thumb: "./pouch_lal_mirch.jpg", url: "https://wa.me/919565564785"
+        cap: "Kaju W240 — large creamy cashews", tag: "Cashews", views: "126K",
+        thumb: "./kaju_w240.jpg", url: "https://www.instagram.com/Shreeji.essentials"
       },
       {
-        cap: "Unboxing the 5-in-1 Master Kitchen Spice Combo", tag: "Combos", views: "148K",
-        thumb: "./kitchen_combo.jpg", url: "https://wa.me/919565564785"
+        cap: "Salted Pista — crunchy and fresh", tag: "Pistachios", views: "33.7K",
+        thumb: "./salted_pista.jpg", url: "https://www.instagram.com/Shreeji.essentials"
       },
       {
-        cap: "Royal Garam Masala — 16 Whole Spices Grinding", tag: "Spices", views: "82.5K",
-        thumb: "./pouch_garam_masala.jpg", url: "https://wa.me/919565564785"
+        cap: "Turkish Anjeer — naturally sweet figs", tag: "Figs", views: "91.4K",
+        thumb: "./turkish_anjeer.jpg", url: "https://www.instagram.com/Shreeji.essentials"
       },
       {
-        cap: "Traditional Cold-Pressed Kachi Ghani Mustard Oil Extraction", tag: "Cooking Essentials", views: "91.2K",
-        thumb: "./mustard_oil.jpg", url: "https://wa.me/919565564785"
+        cap: "Mix Dry Fruits — best for gifting", tag: "Mix", views: "58.9K",
+        thumb: "./mix_dry_fruits.jpg", url: "https://www.instagram.com/Shreeji.essentials"
       },
       {
-        cap: "Danedar Pure Desi Ghee — Village Bilona Churning", tag: "Cooking Essentials", views: "112K",
-        thumb: "./desi_ghee.jpg", url: "https://wa.me/919565564785"
+        cap: "Akhrot — fresh walnut kernels", tag: "Walnuts", views: "22.3K",
+        thumb: "./akhrot_walnuts.jpg", url: "https://www.instagram.com/Shreeji.essentials"
       },
       {
-        cap: "Handcrafted Royal Brass Urli for Home Decor", tag: "Home Decor", views: "95.1K",
-        thumb: "./home_decor.jpg", url: "https://wa.me/919565564785"
+        cap: "Makhana — light crunchy fox nuts", tag: "Makhana", views: "77.1K",
+        thumb: "./makhana_foxnut.jpg", url: "https://www.instagram.com/Shreeji.essentials"
       }
     ];
 
-    /* Instagram Feed */
+    /* Instagram feed — customer photos */
     const FEED = [
-      { s: "ig-1", label: "Pure Turmeric Pouch", src: "./ashrn_turmeric_pouch.png", likes: "4.8K", comments: "184" },
-      { s: "ig-2", label: "Red Chilli Pouch", src: "./pouch_lal_mirch.jpg", likes: "3.9K", comments: "142" },
-      { s: "ig-3", label: "Coriander Pouch", src: "./pouch_dhaniya.jpg", likes: "2.7K", comments: "98" },
-      { s: "ig-4", label: "Garam Masala Pouch", src: "./pouch_garam_masala.jpg", likes: "3.5K", comments: "126" },
-      { s: "ig-5", label: "Kitchen 5-in-1 Combo", src: "./kitchen_combo.jpg", likes: "5.2K", comments: "230" },
-      { s: "ig-6", label: "Kachi Ghani Mustard Oil", src: "./mustard_oil.jpg", likes: "2.9K", comments: "89" },
-      { s: "ig-7", label: "Danedar Desi Ghee", src: "./desi_ghee.jpg", likes: "3.8K", comments: "155" },
-      { s: "ig-8", label: "Royal Brass Urli", src: "./home_decor.jpg", likes: "4.2K", comments: "190" }
+      { s: "ig-1", label: "Mamra Badam", src: dryFruitImages.almonds, likes: "1.8K", comments: "64" },
+      { s: "ig-2", label: "Premium Kaju", src: dryFruitImages.cashews, likes: "972", comments: "31" },
+      { s: "ig-3", label: "Turkish Anjeer", src: dryFruitImages.figs, likes: "2.4K", comments: "118" },
+      { s: "ig-4", label: "Salted Pista", src: dryFruitImages.pistachios, likes: "1.1K", comments: "47" },
+      { s: "ig-5", label: "Golden Kismis", src: dryFruitImages.golden_raisins, likes: "3.2K", comments: "206" },
+      { s: "ig-6", label: "Mix Dry Fruits", src: dryFruitImages.mix, likes: "864", comments: "22" },
+      { s: "ig-7", label: "Fresh Makhana", src: dryFruitImages.makhana, likes: "1.5K", comments: "73" },
+      { s: "ig-8", label: "Akhrot Kernels", src: dryFruitImages.walnuts, likes: "2.0K", comments: "95" }
     ];
 
     const REVIEWS = [
-      { t: "The Turmeric Powder pouch and Red Chilli from ASHRN Group are outstanding! Pure natural aroma, bright natural color with zero chemical dyes. The zip-lock pouch keeps the spices so fresh. Best brand for daily cooking!", n: "Sunita Sharma", c: "Verified buyer · Delhi", s: "rev-a" },
-      { t: "ASHRN Group Kitchen Combo has everything my family needs. The Garam Masala is restaurant quality and the Kachi Ghani Mustard Oil has that real traditional jhaanjh. Fair price and fast delivery!", n: "Rajesh Verma", c: "Verified buyer · Lucknow", s: "rev-b" },
-      { t: "Ordered the 5-in-1 Spice Combo and Desi Ghee. The pouch packaging looks so premium and the quality is 100% pure. Ordered via WhatsApp (+91 95655 64785) and got delivery in 2 days.", n: "Pooja Aggarwal", c: "Verified buyer · Jaipur", s: "rev-c" }
+      { t: "Absolutely top-notch quality dry fruits! The Mamra Badam and Kaju are so fresh and flavorful. Packed with care and delivered quickly.", n: "Preeti Rajput", c: "Verified customer · 27 Aug 2026", s: "rev-a" },
+      { t: "The Pista and Anjeer are amazing quality. You can tell they are freshly packed. Shree Ram Dry Fruits is now our go-to for all dry fruits.", n: "Puneet Goyal", c: "Verified customer · 21 Aug 2026", s: "rev-b" },
+      { t: "Ordered Akhrot and Mix Dry Fruits, both were fresh and hygienically packed. Great taste and very happy with the service!", n: "Vidyansh Kumar", c: "Verified customer · 15 Aug 2026", s: "rev-c" }
     ];
+
+    const FOOT_STRIP = ["© 2026 Shreeji Essentials", "Pure and natural", "Hygienically packed", "Authentic taste", "Maximum freshness", "Made with care"];
 
     const rupee = n => "₹" + Math.round(n).toLocaleString("en-IN");
     const off = p => Math.round((1 - p.price / p.mrp) * 100);
@@ -4320,14 +4054,14 @@
     /* ═══════ PRODUCTS ═══════ */
     function pcard(p, i) {
       return `
-  <article class="pcard" data-id="${p.id}" style="animation-delay:${i * 60}ms">
+  <article class="pcard" data-id="${p.id}" style="animation-delay:${i * 70}ms">
     <div class="pmedia">
       ${p.tag ? `<span class="ptag ${p.tagc || ""}">${p.tag}</span>` : ""}
       <button class="pwish" aria-label="Save ${p.name}" data-wish>
         <svg viewBox="0 0 24 24"><path d="M12 20s-7-4.4-7-9.2A4.2 4.2 0 0 1 12 8a4.2 4.2 0 0 1 7 2.8C19 15.6 12 20 12 20Z"/></svg>
       </button>
       ${img(p.img[0], p.name, "", p.id + "-1")}
-      ${img(p.img[1] || p.img[0], p.name + " second view", "alt", p.id + "-2")}
+      ${img(p.img[1], p.name + " second view", "alt", p.id + "-2")}
     </div>
     <div class="pbody">
       <div class="pcat">${p.cat}</div>
@@ -4358,12 +4092,11 @@
       });
       renderProducts(filter.dataset.category);
     });
-
-    journeyArt.insertAdjacentHTML("afterbegin", img("./ashrn_turmeric_pouch.png", "ASHRN Group™ - 100% pure kitchen spices and essentials", "", "ashrn-promise"));
+    journeyArt.insertAdjacentHTML("afterbegin", img("./mix_dry_fruits.jpg", "Shree Ram Dry Fruits - premium quality assorted dry fruits", "", "shreeji-promise"));
 
     revs.innerHTML = REVIEWS.map(r => `
   <figure class="rev"><div class="stars">${STAR.repeat(5)}</div><p>${r.t}</p>
-    <figcaption class="rev-who">${img("./ashrn_logo.jpg", "", "", r.s)}
+    <figcaption class="rev-who">${img(PX(r.s, 120, 120), "", "", r.s)}
       <span><b>${r.n}</b><span>${r.c}</span></span></figcaption></figure>`).join("");
 
     /* ═══════ REELS ═══════ */
@@ -4392,10 +4125,10 @@
       const url = rUrl.value.trim();
       if (!/^https?:\/\//.test(url)) { rUrl.focus(); rUrl.placeholder = "Paste a full https:// link"; return; }
       REELS.unshift({
-        cap: rCap.value.trim() || "New from ASHRN Group™",
+        cap: rCap.value.trim() || "New from Mukeja",
         tag: "Just added",
         views: "New",
-        thumb: rThumb.value.trim() || "./ashrn_turmeric_pouch.png",
+        thumb: rThumb.value.trim() || PX("reel-new-" + Date.now(), 600, 1000),
         url
       });
       renderReels();
@@ -4419,7 +4152,7 @@
         ? `<video src="${r.url}" controls autoplay playsinline></video>`
         : `<div style="width:100%;height:100%;position:relative">${img(r.thumb, r.cap, "", "reel-lb")}
          <div style="position:absolute;inset:0;background:rgba(23,33,27,.45)"></div></div>`;
-      lightLink.innerHTML = isVideo ? r.cap : `${r.cap} — <a href="https://wa.me/919565564785" target="_blank" rel="noopener">Contact on WhatsApp: +91 95655 64785</a>`;
+      lightLink.innerHTML = isVideo ? r.cap : `${r.cap} — <a href="${r.url}" target="_blank" rel="noopener">open on Instagram</a>`;
       light.classList.add("open");
     }
     lightClose.onclick = () => { light.classList.remove("open"); lightBody.innerHTML = ""; };
@@ -4435,8 +4168,8 @@
     const BUBBLE = '<svg viewBox="0 0 24 24"><path d="M21 11.5a8.5 8.5 0 0 1-12.3 7.6L3 21l1.9-5.7A8.5 8.5 0 1 1 21 11.5Z"/></svg>';
     const feedCard = f => `
   <figure class="ig-card">
-    ${img(f.src || "./ashrn_turmeric_pouch.png", "ASHRN Group™ spice post", "", f.s)}
-    <div class="ig-pack"><b>ASHRN GROUP™</b><span>${f.label}</span></div>
+    ${img(f.src || PX(f.s, 600, 750), "Shreeji Essentials spice post", "", f.s)}
+    <div class="ig-pack"><b>SHREEJI ESSENTIALS</b><span>${f.label}</span></div>
     <div class="ig-meta"><span>${HEART}${f.likes}</span><span>${BUBBLE}${f.comments}</span></div>
   </figure>`;
     igMarq.innerHTML = dup(FEED.map(feedCard).join(""));
@@ -4561,7 +4294,7 @@
     addEventListener("popstate", e => { if (e.state && e.state.id) openProduct(e.state.id, false); else goHome(null, false); });
     if (location.hash.startsWith("#p/")) openProduct(location.hash.slice(3), false);
 
-    /* ═══════ BAG + WHATSAPP ORDER ═══════ */
+    /* ═══════ BAG + TOAST ═══════ */
     let count = 0, tT = null;
     function showToast(msg) { toastMsg.textContent = msg; toast.classList.add("show"); clearTimeout(tT); tT = setTimeout(() => toast.classList.remove("show"), 2600); }
     function addToBag(n, label) {
@@ -4578,36 +4311,15 @@
       b.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m5 13 4 4L19 7"/></svg>';
       setTimeout(() => { b.classList.remove("ok"); b.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>'; }, 1500);
     });
-
     const addPdp = () => addToBag(qty, `${qty} × ${current.name.replace(/&amp;/g, "&")} added`);
     addBtn.onclick = addPdp; sbAdd.onclick = addPdp;
-    
-    // WhatsApp Order integration
-    buyBtn.onclick = () => {
-      const phone = "919565564785";
-      const pack = packName.textContent || "Standard";
-      const cleanName = current.name.replace(/&amp;/g, "&");
-      const msg = `Namaste ASHRN Group! 🙏\n\nI want to place an order from your website:\n📦 *Product:* ${cleanName}\n⚖️ *Pack Size:* ${pack}\n🔢 *Quantity:* ${qty}\n💰 *Total Price:* ₹${current.price * qty}\n\n*My Details:*\nName:\nAddress:\nPincode:\n\nPlease confirm my order. Thank you!`;
-      window.open(`https://wa.me/${phone}?text=${encodeURIComponent(msg)}`, "_blank");
-    };
+    buyBtn.onclick = () => { addPdp(); showToast("Taking you to checkout…"); };
+    bagBtn.onclick = () => showToast(count ? `${count} item${count > 1 ? "s" : ""} in your bag` : "Your bag is empty");
 
-    bagBtn.onclick = () => {
-      if (!count) {
-        showToast("Your bag is empty. Explore our pure kitchen spices!");
-      } else {
-        const phone = "919565564785";
-        const msg = `Namaste ASHRN Group! 🙏\nI have selected ${count} items from your website and want to place an order for pure spices.\n\nPlease share catalog and help complete my order.`;
-        window.open(`https://wa.me/${phone}?text=${encodeURIComponent(msg)}`, "_blank");
-      }
-    };
-
-    couponBtn.onclick = function () { navigator.clipboard?.writeText(couponCode.textContent); this.textContent = "Copied!"; setTimeout(() => this.textContent = "Copy", 1800); };
-    
+    couponBtn.onclick = function () { navigator.clipboard?.writeText(couponCode.textContent); this.textContent = "Copied"; setTimeout(() => this.textContent = "Copy", 1800); };
     joinBtn.onclick = function () {
-      const phone = "919565564785";
-      const query = mail.value.trim();
-      const msg = `Namaste ASHRN Group! 🙏\nI want to place an order for pure kitchen spices & essentials.\n\nMy Contact/Query: ${query || "Please send spice price list and order details."}\n\nLooking forward to hearing from you.`;
-      window.open(`https://wa.me/${phone}?text=${encodeURIComponent(msg)}`, "_blank");
+      if (!/^\S+@\S+\.\S+$/.test(mail.value)) { mail.focus(); mail.placeholder = "Enter a valid email address"; return; }
+      this.textContent = "Check your inbox"; mail.value = ""; mail.placeholder = "Code is on its way";
     };
 
     /* ═══════ NAV / REVEALS ═══════ */
@@ -4619,7 +4331,7 @@
     const io = new IntersectionObserver(es => es.forEach(en => {
       if (!en.isIntersecting) return;
       en.target.classList.add("in"); io.unobserve(en.target);
-    }), { threshold: .12, rootMargin: "0px 0px -6% 0px" });
+    }), { threshold: .14, rootMargin: "0px 0px -6% 0px" });
     document.querySelectorAll(".rv, .stagger").forEach(el => io.observe(el));
   </script>
 </body>
